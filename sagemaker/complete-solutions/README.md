@@ -30,7 +30,7 @@ Coming Soon
 
 ## License
 
-You are free to use, modify, and distribute the code, but it should be noted that these tools are not production ready and should be used for prottyping and testing.
+You are free to use, modify, and distribute the code, but it should be noted that these tools are not production ready and should be used for prototyping and testing.
 
 ## Resources
 
