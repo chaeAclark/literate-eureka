@@ -1,0 +1,53 @@
+{
+    "prompt_id": "kBOoD6",
+    "prompt_name": "Explicit Assumptions Template",
+    "prompt_text": "<<system>>\nYou are an engineer tasked with adding contextual information to any text queries. This includes asking follow-up questions. Your output should always be valid JSON. Show all of your steps and assumptions.\n\n<<user>>\nWhat are some advanced prompting techniques? Current year: 2024.\n\n<<assistant>>\nI am making the following assumptions:\n- \u201cPrompting\u201d is referring to Generative AI and using large language and image generation models.\n- That is the most likely request area.\n- Since the requestor is requesting advanced techniques, I should use research in the previous few years.\n- Some example prompting techniques will make the query more explicit.\nOutput Query: {\u201coriginal_query\u201d:\u201dWhat are some advanced prompting techniques?\u201d, \u201ccontextual_query\u201d:\u201dWhat research has been published between 2020, 2021, 2022, and 2023 that discusses generative AI and large language models and image generation models. Specifically, what is available for techniques like \u2018chain of thought prompting\u2019, \u2018roleplaying with generation models\u201d, and \u2018reAct prompting\u2019? Include related and necessary information like understanding retrieval augmented generation, transformer architectures, and use cases like question-answering, chatbots, and summarization.\u201d}\n\n<<user>>\n{{prompt}}",
+    "prompt_formatted": {
+        "system": "You are an engineer tasked with adding contextual information to any text queries. This includes asking follow-up questions. Your output should always be valid JSON. Show all of your steps and assumptions.",
+        "user": [
+            "What are some advanced prompting techniques? Current year: 2024.",
+            "{{prompt}}"
+        ],
+        "assistant": [
+            "I am making the following assumptions:\n- \u201cPrompting\u201d is referring to Generative AI and using large language and image generation models.\n- That is the most likely request area.\n- Since the requestor is requesting advanced techniques, I should use research in the previous few years.\n- Some example prompting techniques will make the query more explicit.\nOutput Query: {\u201coriginal_query\u201d:\u201dWhat are some advanced prompting techniques?\u201d, \u201ccontextual_query\u201d:\u201dWhat research has been published between 2020, 2021, 2022, and 2023 that discusses generative AI and large language models and image generation models. Specifically, what is available for techniques like \u2018chain of thought prompting\u2019, \u2018roleplaying with generation models\u201d, and \u2018reAct prompting\u2019? Include related and necessary information like understanding retrieval augmented generation, transformer architectures, and use cases like question-answering, chatbots, and summarization.\u201d}"
+        ]
+    },
+    "description": "This template is useful when receiving queries/prompts from external users. It makes the assumptions made by the model explicit and add context to the prompt.",
+    "modality": [
+        "Text"
+    ],
+    "category": [],
+    "variables": [
+        {
+            "var": "prompt",
+            "var_desc": "",
+            "var_ex": "What might be the outlook for stocks over the next 2 years? Current year: June-2024."
+        }
+    ],
+    "test_results": [
+        {
+            "response": " I am making the following assumptions:\n- The requestor is asking about the general outlook for the stock market.\n- The requestor is interested in the outlook for the next 2 years, specifically from June 2024 to June 2026.\n- The requestor is interested in the outlook for the US stock market.\n- The requestor is interested in the outlook for major stock indices such as the S&P 500, Dow Jones Industrial Average, and Nasdaq Composite.\n- The requestor is interested in the outlook for various sectors within the stock market, such as technology, healthcare, and finance.\n- The requestor is interested in the outlook for individual stocks, but not specific ones.\nOutput Query: {\u201coriginal_query\u201d:\u201dWhat might be the outlook for stocks over the next 2 years?\u201d, \u201ccontextual_query\u201d:\u201dWhat is the outlook for the US stock market from June 2024 to June 2026? Include information about the outlook for major stock indices such as the S&P 500, Dow Jones Industrial Average, and Nasdaq Composite. Also include information about the outlook for various sectors within the stock market, such as technology, healthcare, and finance. Finally, include information about the outlook for individual stocks, but not specific ones.\u201d}",
+            "latency": "7940",
+            "tokens": {
+                "tokens_in": "314",
+                "tokens_out": "299"
+            }
+        },
+        {
+            "response": "Here are the assumptions I'm making:\n\n- The query is asking about the potential future performance of the overall stock market over the next 2 years from June 2024.\n- Relevant factors would include economic conditions, interest rates, corporate earnings, geopolitical events, etc.\n- As an AI system, I don't have any special insight into future market movements, but can summarize analyst outlooks.\n\nOutput JSON:\n\n```json\n{\n  \"original_query\": \"What might be the outlook for stocks over the next 2 years?\",\n  \"current_year\": \"June-2024\",\n  \"contextual_query\": \"Based on the current economic conditions in June 2024 and forecasts by major financial analysts and institutions, what is the general outlook or predictions for the performance of the overall stock market over the next 2 years until June 2026? Please summarize factors like GDP growth, interest rates, corporate earnings, investor sentiment, and any major events or risks that could impact stock valuations during this period.\"\n}\n```",
+            "latency": "8641",
+            "tokens": {
+                "tokens_in": "298",
+                "tokens_out": "232"
+            }
+        },
+        {
+            "response": "I am making the following assumptions:\n- The requestor is seeking a general outlook for the stock market, rather than a specific stock or sector.\n- The requestor is looking for a forecast or prediction, rather than historical data.\n- The time frame is 2 years, which is a relatively short-term period in the context of stock market trends.\n- The current year is June 2024, which means the requestor is looking for a forecast from mid-2024 to mid-2026.\n\nOutput Query: {\u201coriginal_query\u201d:\u201dWhat might be the outlook for stocks over the next 2 years?\u201d, \u201ccontextual_query\u201d:\u201dWhat are the current economic indicators, such as GDP growth, inflation rate, and interest rates, that might impact the stock market over the next 2 years? What are the predictions from reputable financial institutions, such as the Federal Reserve, IMF, and major investment banks, regarding the stock market's performance from mid-2024 to mid-2026? Are there any potential risks or opportunities, such as geopolitical events, regulatory changes, or emerging technologies, that could influence the stock market's direction during this period?\u201d}\n\nFollow-up questions:\n\n* Are you interested in a specific region or sector, such as the US, Europe, or technology stocks?\n* Would you like to know about any specific stock market indices, such as the S&P 500 or Dow Jones?\n* Are you looking for a bullish or bearish outlook, or a more neutral assessment of the market's prospects?",
+            "latency": "11838",
+            "tokens": {
+                "tokens_in": "289",
+                "tokens_out": "309"
+            }
+        }
+    ]
+}
