@@ -17,7 +17,7 @@ Welcome to the Bedrock SDK, a Python library designed to simplify the interactio
 ## Installation
 To install the Bedrock SDK, use pip:
 ```bash
-pip install bedrock-sdk
+pip install <TBA>
 ```
 
 ## Prompt Template
@@ -179,7 +179,7 @@ Welcome to the Bedrock SDK documentation for the `BedrockClient` class. This cla
 ## Installation
 To install the Bedrock SDK, use pip:
 ```bash
-pip install bedrock-sdk
+pip install <TBA>
 ```
 
 ## BedrockClient
@@ -328,7 +328,7 @@ Welcome to the Bedrock SDK documentation for the `Guardrails` module. This modul
 ## Installation
 To install the Bedrock SDK, use pip:
 ```bash
-pip install bedrock-sdk
+pip install <TBA>
 ```
 
 ## Guardrails
