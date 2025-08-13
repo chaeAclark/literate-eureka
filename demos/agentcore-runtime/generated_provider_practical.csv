@@ -1,0 +1,36 @@
+system_id,new_patients,insurance_network,telehealth,hospitals,overall_rating,communication_rating
+PROV-48271,yes,"Aetna, Blue Cross, Cigna, Medicare, UnitedHealthcare",yes,"University Medical Center, Northwest Hospital",4.8/5,4.9/5
+PROV-62145,yes,"Medicare, Blue Cross, Humana, Cigna, Kaiser Permanente",yes,"Mercy Medical Center, Community Hospital, City Heart Institute",4.7/5,4.5/5
+PROV-19837,limited,"Aetna, Blue Cross, UnitedHealthcare, TRICARE",yes,"University Hospital, Regional Medical Center",4.6/5,4.8/5
+PROV-73402,yes,"Blue Cross, Cigna, Medicare, UnitedHealthcare, Humana",partial,"Orthopedic Specialty Hospital, Memorial Hospital",4.9/5,4.7/5
+PROV-25619,yes,"Aetna, Cigna, Medicaid, CHAMPVA, Blue Cross",yes,"Children's Medical Center, University Hospital",4.5/5,4.7/5
+PROV-51390,limited,"Blue Cross, UnitedHealthcare, Cigna, Medicare, Aetna",yes,"Women's Hospital, University Medical Center",4.8/5,4.9/5
+PROV-38742,yes,"Medicare, Medicaid, Blue Cross, Molina, UnitedHealthcare, TRICARE",yes,"Community Hospital, Rural Health Clinic",4.7/5,4.9/5
+PROV-90127,yes,"Aetna, Cigna, Optum, Blue Cross, Medicare",yes,"Behavioral Health Center, University Hospital",4.6/5,4.8/5
+PROV-46823,limited,"Blue Cross, Cigna, Medicare, UnitedHealthcare",partial,"Dermatology Institute, University Hospital",4.9/5,4.8/5
+PROV-12576,yes,"Medicare, Aetna, Cigna, Blue Cross, Humana",yes,"Digestive Health Center, Memorial Hospital",4.7/5,4.6/5
+PROV-58901,yes,"Blue Cross, Medicare, UnitedHealthcare, Aetna, CHAMPVA",yes,"Cancer Treatment Center, University Medical Center",4.8/5,4.9/5
+PROV-33487,no,"Medicare, Blue Cross, Humana, Cigna",partial,"Pulmonary Institute, City Hospital",4.5/5,4.4/5
+PROV-79652,yes,"Medicare, Medicaid, Blue Cross, TRICARE, Aetna, UnitedHealthcare",yes,"Kidney Institute, University Medical Center",4.6/5,4.8/5
+PROV-21043,yes,"Blue Cross, Cigna, Medicare, UnitedHealthcare, Kaiser",yes,"Infectious Disease Center, County Hospital",4.7/5,4.7/5
+PROV-64870,limited,"Blue Cross, Aetna, UnitedHealthcare, Medicaid, TRICARE",yes,"Children's Hospital, Neurology Institute",4.8/5,4.9/5
+PROV-36291,yes,"Medicare, Blue Cross, UnitedHealthcare, Aetna",partial,"Urology Center, Memorial Hospital",4.6/5,4.5/5
+PROV-83745,no,"Medicare, Cigna, Blue Cross, UnitedHealthcare",no,"Vascular Institute, University Hospital",4.7/5,4.6/5
+PROV-42519,yes,"Blue Cross, Medicare, Aetna, UnitedHealthcare, Humana",yes,"Cancer Treatment Center, Regional Hospital",4.5/5,4.7/5
+PROV-91567,yes,"Medicare, Blue Cross, Cigna, UnitedHealthcare, TRICARE",yes,"Arthritis Center, University Hospital",4.8/5,4.9/5
+PROV-15932,yes,"Blue Cross, Aetna, Cigna, UnitedHealthcare, Workers Comp",partial,"Sports Medicine Center, Rehabilitation Hospital",4.7/5,4.8/5
+PROV-67408,limited,"Medicare, Blue Cross, VSP, Davis Vision, Aetna",no,"Eye Institute, University Medical Center",4.9/5,4.8/5
+PROV-28176,yes,"Blue Cross, Aetna, Cigna, UnitedHealthcare, Medicare",yes,"Allergy & Asthma Center, Community Hospital",4.6/5,4.7/5
+PROV-53782,yes,"Medicare, Medicaid, Blue Cross, UnitedHealthcare, TRICARE",no,"Trauma Center, University Hospital",4.5/5,4.4/5
+PROV-74159,limited,"Blue Cross, Aetna, Cigna, Medicare, UnitedHealthcare",partial,"ENT Specialty Center, University Hospital",4.8/5,4.7/5
+PROV-31726,yes,"Blue Cross, Aetna, Cigna, Medicare, TRICARE",yes,"Reconstructive Surgery Center, University Medical Center",4.9/5,4.8/5
+PROV-87294,yes,"Medicare, Blue Cross, UnitedHealthcare, Cigna, Workers Comp",yes,"Pain Management Center, University Hospital",4.7/5,4.6/5
+PROV-41085,yes,"Blue Cross, Cigna, Aetna, Medicare, UnitedHealthcare",no,"Emergency Medicine Center, Trauma Center",4.5/5,4.4/5
+PROV-96342,limited,"Blue Cross, Aetna, UnitedHealthcare, Medicaid, CHAMPVA",yes,"Children's Heart Center, Adult Congenital Heart Center",4.8/5,4.9/5
+PROV-23967,yes,"Medicare, AARP Medicare Complete, Blue Cross, Humana, Aetna",yes,"Geriatric Center, Palliative Care Institute",4.7/5,4.9/5
+PROV-75831,yes,"Blue Cross, Medicare, UnitedHealthcare, Cigna",no,"University Medical Center, Pathology Institute",4.6/5,4.5/5
+PROV-39214,yes,"Blue Cross, Aetna, Cigna, UnitedHealthcare, Workers Comp",partial,"Sports Medicine Center, Emergency Medicine Department",4.7/5,4.8/5
+PROV-82609,limited,"Blue Cross, Medicare, Aetna, UnitedHealthcare, Cigna",no,"Neurosurgical Institute, University Hospital",4.9/5,4.7/5
+PROV-47153,yes,"Medicare, Blue Cross, UnitedHealthcare, Cigna, Kaiser",yes,"Sleep Medicine Center, Pulmonary Institute",4.6/5,4.7/5
+PROV-63817,yes,"Workers Comp, Blue Cross, UnitedHealthcare, Medicare, Aetna",partial,"Occupational Health Center, Community Hospital",4.5/5,4.6/5
+PROV-18295,yes,"Medicare, Blue Cross, Humana, UnitedHealthcare, Cigna",no,"Nuclear Medicine Center, University Medical Center",4.7/5,4.6/5

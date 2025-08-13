@@ -1,0 +1,2502 @@
+[
+    {
+        "patientId": "PT-10042",
+        "demographics": {
+            "name": "Michael Rodriguez",
+            "dob": "1978-03-15",
+            "age": 45,
+            "gender": "Male",
+            "address": "789 Lakeside Drive, Bellevue, WA 98007",
+            "phone": "425-555-9876",
+            "email": "mrodriguez@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Blue Cross Blue Shield",
+            "planType": "PPO",
+            "policyNumber": "BCBS785432109",
+            "groupNumber": "45692",
+            "verificationDate": "2023-01-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. James Wilson",
+            "diagnoses": ["Type 2 diabetes (2019)", "Hypertension", "Mild obesity"],
+            "medications": ["Metformin 1000mg BID", "Lisinopril 10mg daily"],
+            "allergies": ["Penicillin (hives)", "Latex (mild)"],
+            "recentLabs": {
+                "HbA1c": "7.9%",
+                "eGFR": 85,
+                "lipidPanel": "normal"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Primary care follow-up", "date": "2023-05"},
+                {"type": "Urgent care - sinusitis", "date": "2023-03"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Cardiology", "provider": "Dr. Lisa Park", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-28471",
+        "demographics": {
+            "name": "Sarah Johnson",
+            "dob": "1985-07-22",
+            "age": 38,
+            "gender": "Female",
+            "address": "456 Pine Street, Seattle, WA 98101",
+            "phone": "206-555-1234",
+            "email": "sjohnson@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Aetna",
+            "planType": "HMO",
+            "policyNumber": "AET56789012",
+            "groupNumber": "78901",
+            "verificationDate": "2023-03-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Emily Chen",
+            "diagnoses": ["Asthma", "Seasonal allergies", "Migraines"],
+            "medications": ["Albuterol inhaler PRN", "Sumatriptan 50mg PRN", "Loratadine 10mg daily"],
+            "allergies": ["Sulfa drugs (rash)", "Peanuts (anaphylaxis)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "Vitamin D": "low"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Annual physical", "date": "2023-04"},
+                {"type": "Urgent care - migraine", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Neurology", "provider": "Dr. David Kim", "year": 2023},
+                {"specialty": "Allergy", "provider": "Dr. Maria Gonzalez", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-37159",
+        "demographics": {
+            "name": "Robert Thompson",
+            "dob": "1952-11-03",
+            "age": 71,
+            "gender": "Male",
+            "address": "1245 Oak Avenue, Tacoma, WA 98402",
+            "phone": "253-555-7890",
+            "email": "rthompson@email.com",
+            "preferredContact": "mail"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "AARP Medicare Supplement",
+            "planType": "Medicare Advantage",
+            "policyNumber": "MED123456789",
+            "groupNumber": "12345",
+            "verificationDate": "2023-01-05"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Patricia Williams",
+            "diagnoses": ["Coronary artery disease", "Osteoarthritis", "Glaucoma", "BPH"],
+            "medications": [
+                "Atorvastatin 40mg daily",
+                "Metoprolol 50mg BID",
+                "Aspirin 81mg daily",
+                "Tamsulosin 0.4mg daily",
+                "Latanoprost eye drops nightly"
+            ],
+            "allergies": ["Codeine (respiratory depression)"],
+            "recentLabs": {
+                "Lipid panel": "LDL 110 mg/dL",
+                "eGFR": 65,
+                "PSA": "4.1 ng/mL"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Primary care follow-up", "date": "2023-04"},
+                {"type": "Ophthalmology check", "date": "2023-02"},
+                {"type": "Cardiology follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Cardiology", "provider": "Dr. Thomas Lee", "year": 2022},
+                {"specialty": "Ophthalmology", "provider": "Dr. Sarah Miller", "year": 2023},
+                {"specialty": "Urology", "provider": "Dr. Robert Garcia", "year": 2022}
+            ],
+            "patientPortalActive": false
+        }
+    },
+    {
+        "patientId": "PT-48612",
+        "demographics": {
+            "name": "Jennifer Martinez",
+            "dob": "1990-05-12",
+            "age": 33,
+            "gender": "Female",
+            "address": "789 Cherry Lane, Redmond, WA 98052",
+            "phone": "425-555-3456",
+            "email": "jmartinez@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "UnitedHealthcare",
+            "planType": "EPO",
+            "policyNumber": "UHC345678901",
+            "groupNumber": "23456",
+            "verificationDate": "2023-02-28"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Michael Brown",
+            "diagnoses": ["Anxiety disorder", "Hypothyroidism", "PCOS"],
+            "medications": ["Levothyroxine 75mcg daily", "Sertraline 50mg daily", "Combined oral contraceptive"],
+            "allergies": ["Shellfish (hives)"],
+            "recentLabs": {
+                "TSH": "2.5 mIU/L",
+                "Free T4": "normal",
+                "CBC": "normal"
+            },
+            "lastPhysical": "2022-11"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Gynecology annual exam", "date": "2023-03"},
+                {"type": "Psychiatry follow-up", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Psychiatry", "provider": "Dr. Amanda Lewis", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. John Smith", "year": 2022},
+                {"specialty": "Gynecology", "provider": "Dr. Elizabeth Taylor", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-59728",
+        "demographics": {
+            "name": "William Davis",
+            "dob": "1968-09-28",
+            "age": 55,
+            "gender": "Male",
+            "address": "123 Maple Street, Kirkland, WA 98033",
+            "phone": "425-555-6789",
+            "email": "wdavis@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Cigna",
+            "planType": "POS",
+            "policyNumber": "CIG234567890",
+            "groupNumber": "34567",
+            "verificationDate": "2023-04-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Rebecca Johnson",
+            "diagnoses": ["Lower back pain", "High cholesterol", "Prediabetes"],
+            "medications": ["Rosuvastatin 10mg daily", "Naproxen 500mg PRN"],
+            "allergies": ["Ibuprofen (GI upset)"],
+            "recentLabs": {
+                "A1C": "6.3%",
+                "Lipid panel": "LDL 130 mg/dL",
+                "Liver function": "normal"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Annual physical", "date": "2023-04"},
+                {"type": "Physical therapy", "date": "2023-02"},
+                {"type": "Orthopedics consultation", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Orthopedics", "provider": "Dr. Kevin Martin", "year": 2022},
+                {"specialty": "Physical Therapy", "provider": "Dr. Nicole Adams", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-61034",
+        "demographics": {
+            "name": "Emily Wilson",
+            "dob": "2001-02-19",
+            "age": 22,
+            "gender": "Female",
+            "address": "567 University Ave, Seattle, WA 98105",
+            "phone": "206-555-4567",
+            "email": "ewilson@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "Parent's Blue Cross",
+            "planType": "PPO",
+            "policyNumber": "BCBS123456789",
+            "groupNumber": "56789",
+            "verificationDate": "2023-01-20"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Sarah Adams",
+            "diagnoses": ["Major depressive disorder", "Iron deficiency anemia"],
+            "medications": ["Escitalopram 10mg daily", "Ferrous sulfate 325mg daily"],
+            "allergies": ["No known allergies"],
+            "recentLabs": {
+                "CBC": "Hgb 11.2 g/dL",
+                "Ferritin": "15 ng/mL"
+            },
+            "lastPhysical": "2022-08"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Mental health follow-up", "date": "2023-04"},
+                {"type": "Urgent care - UTI", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Psychiatry", "provider": "Dr. Michael Kennedy", "year": 2023},
+                {"specialty": "Hematology", "provider": "Dr. Jessica Patel", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-72851",
+        "demographics": {
+            "name": "David Anderson",
+            "dob": "1945-07-04",
+            "age": 78,
+            "gender": "Male",
+            "address": "789 Retirement Lane, Edmonds, WA 98020",
+            "phone": "425-555-8901",
+            "email": null,
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "Tricare For Life",
+            "planType": "Original Medicare",
+            "policyNumber": "MED987654321",
+            "verificationDate": "2023-01-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Robert Miller",
+            "diagnoses": ["Atrial fibrillation", "COPD", "Hearing loss", "Macular degeneration"],
+            "medications": [
+                "Apixaban 5mg BID", 
+                "Tiotropium inhaler daily", 
+                "Albuterol inhaler PRN",
+                "AREDS2 vitamins daily"
+            ],
+            "allergies": ["Amiodarone (pulmonary toxicity)", "Aspirin (GI bleed)"],
+            "recentLabs": {
+                "INR": "Not applicable (on DOAC)",
+                "BMP": "normal",
+                "BNP": "slightly elevated"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Cardiology follow-up", "date": "2023-05"},
+                {"type": "Pulmonology follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-03"},
+                {"type": "Ophthalmology follow-up", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Cardiology", "provider": "Dr. Jennifer Wilson", "year": 2023},
+                {"specialty": "Pulmonology", "provider": "Dr. Christopher Lee", "year": 2023},
+                {"specialty": "Ophthalmology", "provider": "Dr. Elizabeth Chen", "year": 2023},
+                {"specialty": "Audiology", "provider": "Dr. Paul Roberts", "year": 2022}
+            ],
+            "patientPortalActive": false
+        }
+    },
+    {
+        "patientId": "PT-83697",
+        "demographics": {
+            "name": "Sophia Nguyen",
+            "dob": "1996-11-23",
+            "age": 26,
+            "gender": "Female",
+            "address": "234 Eastside Drive, Bellevue, WA 98004",
+            "phone": "425-555-2345",
+            "email": "snguyen@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Microsoft Health Insurance",
+            "planType": "PPO",
+            "policyNumber": "MSFT987654321",
+            "groupNumber": "67890",
+            "verificationDate": "2023-05-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Jessica Wong",
+            "diagnoses": ["Migraine with aura", "Polycystic ovary syndrome"],
+            "medications": ["Rizatriptan 10mg PRN", "Combined oral contraceptive"],
+            "allergies": ["Sulfa drugs (rash)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "Androgen panel": "elevated testosterone",
+                "Vitamin D": "low"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Neurology follow-up", "date": "2023-03"},
+                {"type": "Gynecology follow-up", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Neurology", "provider": "Dr. Andrew Kim", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. Michelle Johnson", "year": 2022},
+                {"specialty": "Gynecology", "provider": "Dr. Rachel Thompson", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-94250",
+        "demographics": {
+            "name": "James Harper",
+            "dob": "1975-08-15",
+            "age": 48,
+            "gender": "Male",
+            "address": "567 Highland Drive, Issaquah, WA 98027",
+            "phone": "425-555-7654",
+            "email": "jharper@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Amazon Employee Insurance",
+            "planType": "EPO",
+            "policyNumber": "AMZN123498765",
+            "groupNumber": "78901",
+            "verificationDate": "2023-02-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Mark Johnson",
+            "diagnoses": ["Sleep apnea", "Gout", "Hypertension"],
+            "medications": ["Allopurinol 300mg daily", "Losartan 50mg daily", "Amlodipine 5mg daily"],
+            "allergies": ["Lisinopril (cough)"],
+            "recentLabs": {
+                "Uric acid": "7.2 mg/dL",
+                "BMP": "normal",
+                "Lipid panel": "mildly elevated triglycerides"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Sleep medicine follow-up", "date": "2023-04"},
+                {"type": "Primary care follow-up", "date": "2023-02"},
+                {"type": "Rheumatology follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Sleep Medicine", "provider": "Dr. Linda Chen", "year": 2023},
+                {"specialty": "Rheumatology", "provider": "Dr. Steven Park", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-10583",
+        "demographics": {
+            "name": "Maria Gonzalez",
+            "dob": "1980-01-08",
+            "age": 43,
+            "gender": "Female",
+            "address": "345 Westlake Ave, Seattle, WA 98109",
+            "phone": "206-555-8765",
+            "email": "mgonzalez@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Premera Blue Cross",
+            "planType": "PPO",
+            "policyNumber": "PBC789012345",
+            "groupNumber": "89012",
+            "verificationDate": "2023-03-20"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Rachel Lee",
+            "diagnoses": ["Rheumatoid arthritis", "Fibromyalgia", "Depression"],
+            "medications": [
+                "Methotrexate 15mg weekly", 
+                "Folic acid 1mg daily", 
+                "Pregabalin 75mg BID", 
+                "Duloxetine 60mg daily"
+            ],
+            "allergies": ["NSAIDs (GI bleeding)", "Adhesive tape (skin rash)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CRP": "12 mg/L",
+                "ESR": "28 mm/hr",
+                "Liver function": "normal"
+            },
+            "lastPhysical": "2022-10"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Rheumatology follow-up", "date": "2023-05"},
+                {"type": "Pain management", "date": "2023-03"},
+                {"type": "Psychiatry follow-up", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Rheumatology", "provider": "Dr. Daniel Green", "year": 2023},
+                {"specialty": "Pain Medicine", "provider": "Dr. Karen White", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Thomas Black", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-21964",
+        "demographics": {
+            "name": "Daniel Kim",
+            "dob": "1999-03-28",
+            "age": 24,
+            "gender": "Male",
+            "address": "789 Campus Way, Seattle, WA 98195",
+            "phone": "206-555-3210",
+            "email": "dkim@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "Kaiser Permanente",
+            "planType": "HMO",
+            "policyNumber": "KP567890123",
+            "groupNumber": "90123",
+            "verificationDate": "2023-04-05"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Michelle Park",
+            "diagnoses": ["Attention deficit hyperactivity disorder", "Seasonal allergies"],
+            "medications": ["Methylphenidate 20mg daily", "Loratadine 10mg PRN"],
+            "allergies": ["No known allergies"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal"
+            },
+            "lastPhysical": "2022-09"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Psychiatry follow-up", "date": "2023-04"},
+                {"type": "Primary care - URI", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Psychiatry", "provider": "Dr. James Wilson", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-32075",
+        "demographics": {
+            "name": "Elizabeth Taylor",
+            "dob": "1960-06-15",
+            "age": 63,
+            "gender": "Female",
+            "address": "456 Lakeview Drive, Sammamish, WA 98074",
+            "phone": "425-555-9087",
+            "email": "etaylor@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "Medigap Plan G",
+            "planType": "Original Medicare",
+            "policyNumber": "MED234567890",
+            "verificationDate": "2023-01-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. William Brown",
+            "diagnoses": ["Breast cancer (in remission)", "Osteoporosis", "Anxiety disorder"],
+            "medications": [
+                "Anastrozole 1mg daily", 
+                "Alendronate 70mg weekly", 
+                "Calcium + Vitamin D supplement daily", 
+                "Lorazepam 0.5mg PRN"
+            ],
+            "allergies": ["Tamoxifen (blood clots)", "Morphine (nausea)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "Vitamin D": "normal",
+                "Bone density": "T-score: -2.6"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Oncology follow-up", "date": "2023-05"},
+                {"type": "Primary care annual visit", "date": "2023-03"},
+                {"type": "Bone density scan", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Oncology", "provider": "Dr. Sarah Johnson", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. Robert Garcia", "year": 2022},
+                {"specialty": "Psychiatry", "provider": "Dr. Mary Wilson", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-43768",
+        "demographics": {
+            "name": "Thomas Lee",
+            "dob": "1957-09-30",
+            "age": 66,
+            "gender": "Male",
+            "address": "123 Evergreen Place, Shoreline, WA 98155",
+            "phone": "206-555-1122",
+            "email": "tlee@email.com",
+            "preferredContact": "mail"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "Retiree benefits from Boeing",
+            "planType": "Medicare Advantage",
+            "policyNumber": "MED654321098",
+            "groupNumber": "12345",
+            "verificationDate": "2023-02-28"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Laura Martinez",
+            "diagnoses": ["Parkinson's disease", "Depression", "Benign prostatic hyperplasia", "Hyperlipidemia"],
+            "medications": [
+                "Carbidopa-levodopa 25-100mg TID", 
+                "Sertraline 100mg daily", 
+                "Tamsulosin 0.4mg daily", 
+                "Atorvastatin 20mg daily"
+            ],
+            "allergies": ["ACE inhibitors (cough)", "Sulfa drugs (rash)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "Lipid panel": "LDL 100 mg/dL",
+                "PSA": "3.8 ng/mL"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Neurology follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-02"},
+                {"type": "Urology follow-up", "date": "2023-01"},
+                {"type": "Psychiatry follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Neurology", "provider": "Dr. Jennifer Adams", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Michael Chen", "year": 2022},
+                {"specialty": "Urology", "provider": "Dr. David Brown", "year": 2023}
+            ],
+            "patientPortalActive": false
+        }
+    },
+    {
+        "patientId": "PT-54289",
+        "demographics": {
+            "name": "Linda Garcia",
+            "dob": "1972-04-17",
+            "age": 51,
+            "gender": "Female",
+            "address": "567 Northgate Way, Seattle, WA 98125",
+            "phone": "206-555-3344",
+            "email": "lgarcia@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Regence BlueShield",
+            "planType": "PPO",
+            "policyNumber": "RBS876543210",
+            "groupNumber": "23456",
+            "verificationDate": "2023-03-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Christopher Davis",
+            "diagnoses": ["Multiple sclerosis", "Irritable bowel syndrome", "Migraine"],
+            "medications": [
+                "Dimethyl fumarate 240mg BID", 
+                "Sumatriptan 100mg PRN", 
+                "Amitriptyline 25mg QHS", 
+                "Dicyclomine 20mg PRN"
+            ],
+            "allergies": ["Avonex (injection site reactions)", "Gabapentin (dizziness)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "MRI brain": "stable lesions since previous scan"
+            },
+            "lastPhysical": "2022-11"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Neurology follow-up", "date": "2023-05"},
+                {"type": "Gastroenterology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2022-11"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Neurology", "provider": "Dr. Richard Wilson", "year": 2023},
+                {"specialty": "Gastroenterology", "provider": "Dr. Susan Lee", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-65391",
+        "demographics": {
+            "name": "Richard Brown",
+            "dob": "1983-12-05",
+            "age": 39,
+            "gender": "Male",
+            "address": "789 Downtown Avenue, Seattle, WA 98101",
+            "phone": "206-555-5566",
+            "email": "rbrown@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "Molina Healthcare",
+            "planType": "Medicaid managed care",
+            "policyNumber": "MOL987123456",
+            "verificationDate": "2023-04-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Jennifer Wilson",
+            "diagnoses": ["Bipolar disorder", "Substance use disorder (in recovery)", "Hepatitis C (treated)"],
+            "medications": ["Lithium 300mg BID", "Lamotrigine 200mg daily", "Buprenorphine/naloxone 8/2mg daily"],
+            "allergies": ["Haloperidol (dystonia)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "Lithium level": "0.8 mEq/L",
+                "Hepatitis C viral load": "undetectable"
+            },
+            "lastPhysical": "2022-10"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Psychiatry follow-up", "date": "2023-05"},
+                {"type": "Addiction medicine follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2022-10"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Psychiatry", "provider": "Dr. Rachel Green", "year": 2023},
+                {"specialty": "Addiction Medicine", "provider": "Dr. Mark Johnson", "year": 2023},
+                {"specialty": "Hepatology", "provider": "Dr. Sarah Kim", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-76102",
+        "demographics": {
+            "name": "Susan Williams",
+            "dob": "1995-02-25",
+            "age": 28,
+            "gender": "Female",
+            "address": "234 Greenwood Ave, Seattle, WA 98103",
+            "phone": "206-555-7788",
+            "email": "swilliams@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Anthem Blue Cross",
+            "planType": "PPO",
+            "policyNumber": "ABC543216789",
+            "groupNumber": "34567",
+            "verificationDate": "2023-05-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. David Martinez",
+            "diagnoses": ["Type 1 diabetes", "Celiac disease", "Generalized anxiety disorder"],
+            "medications": [
+                "Insulin glargine 20 units nightly", 
+                "Insulin lispro sliding scale", 
+                "Buspirone 15mg BID"
+            ],
+            "allergies": ["Gluten (celiac disease)", "Adhesive tape (rash)"],
+            "recentLabs": {
+                "HbA1c": "7.2%",
+                "Celiac antibodies": "negative",
+                "CBC": "normal",
+                "CMP": "normal"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Endocrinology follow-up", "date": "2023-05"},
+                {"type": "Gastroenterology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-01"},
+                {"type": "Mental health follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Endocrinology", "provider": "Dr. Michael Lee", "year": 2023},
+                {"specialty": "Gastroenterology", "provider": "Dr. Rebecca Johnson", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Thomas Garcia", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-87314",
+        "demographics": {
+            "name": "Mohammed Ahmed",
+            "dob": "1988-08-12",
+            "age": 35,
+            "gender": "Male",
+            "address": "567 Rainier Avenue, Seattle, WA 98118",
+            "phone": "206-555-9900",
+            "email": "mahmed@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Cigna",
+            "planType": "HDHP with HSA",
+            "policyNumber": "CIG765432109",
+            "groupNumber": "45678",
+            "verificationDate": "2023-02-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Katherine Chen",
+            "diagnoses": ["Crohn's disease", "Ankylosing spondylitis", "Iron deficiency anemia"],
+            "medications": [
+                "Adalimumab 40mg every 2 weeks", 
+                "Mesalamine 1.2g BID", 
+                "Iron sulfate 325mg daily", 
+                "Vitamin D 2000 IU daily"
+            ],
+            "allergies": ["Infliximab (infusion reaction)", "Penicillin (rash)"],
+            "recentLabs": {
+                "CBC": "Hgb 12.1 g/dL",
+                "CRP": "8 mg/L",
+                "Ferritin": "25 ng/mL",
+                "Vitamin D": "28 ng/mL"
+            },
+            "lastPhysical": "2022-12"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Gastroenterology follow-up", "date": "2023-04"},
+                {"type": "Rheumatology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Gastroenterology", "provider": "Dr. Sarah Wilson", "year": 2023},
+                {"specialty": "Rheumatology", "provider": "Dr. David Taylor", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-98425",
+        "demographics": {
+            "name": "Patricia Lopez",
+            "dob": "1949-05-30",
+            "age": 74,
+            "gender": "Female",
+            "address": "123 Senior Living Court, Bellevue, WA 98005",
+            "phone": "425-555-1212",
+            "email": null,
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "AARP Medicare Complete",
+            "planType": "Medicare Advantage",
+            "policyNumber": "MED098765432",
+            "groupNumber": "56789",
+            "verificationDate": "2023-01-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Emily Richardson",
+            "diagnoses": [
+                "Alzheimer's disease (early stage)", 
+                "Hypertension", 
+                "Type 2 diabetes", 
+                "Osteoarthritis", 
+                "Chronic kidney disease (stage 3)"
+            ],
+            "medications": [
+                "Donepezil 10mg daily", 
+                "Memantine 10mg BID", 
+                "Lisinopril 20mg daily", 
+                "Metformin 500mg BID", 
+                "Acetaminophen 650mg PRN"
+            ],
+            "allergies": ["NSAIDs (acute kidney injury)"],
+            "recentLabs": {
+                "HbA1c": "7.0%",
+                "eGFR": "45 mL/min/1.73m²",
+                "BMP": "stable",
+                "Vitamin B12": "low"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Neurology follow-up", "date": "2023-05"},
+                {"type": "Primary care visit", "date": "2023-02"},
+                {"type": "Nephrology follow-up", "date": "2023-01"},
+                {"type": "Endocrinology follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Neurology", "provider": "Dr. James Smith", "year": 2023},
+                {"specialty": "Nephrology", "provider": "Dr. Susan Jones", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. Robert Lee", "year": 2022},
+                {"specialty": "Geriatrics", "provider": "Dr. Maria Garcia", "year": 2022}
+            ],
+            "patientPortalActive": false,
+            "caregiver": {
+                "name": "Carlos Lopez",
+                "relationship": "Son",
+                "phone": "425-555-1313",
+                "email": "clopez@email.com"
+            }
+        }
+    },
+    {
+        "patientId": "PT-18753",
+        "demographics": {
+            "name": "Alexander Wilson",
+            "dob": "1992-07-19",
+            "age": 31,
+            "gender": "Male",
+            "address": "456 Tech Ridge, Redmond, WA 98052",
+            "phone": "425-555-3434",
+            "email": "awilson@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Aetna",
+            "planType": "HDHP with HSA",
+            "policyNumber": "AET123987456",
+            "groupNumber": "67890",
+            "verificationDate": "2023-03-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Nicole Brown",
+            "diagnoses": ["Ulcerative colitis", "Primary sclerosing cholangitis", "Anxiety"],
+            "medications": ["Mesalamine 2.4g daily", "Ursodiol 300mg TID", "Escitalopram 10mg daily"],
+            "allergies": ["Sulfasalazine (rash)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "mildly elevated liver enzymes",
+                "Calprotectin": "150 mcg/g",
+                "MRCP": "mild bile duct irregularities"
+            },
+            "lastPhysical": "2022-11"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Gastroenterology follow-up", "date": "2023-04"},
+                {"type": "Hepatology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2022-11"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Gastroenterology", "provider": "Dr. Michael Green", "year": 2023},
+                {"specialty": "Hepatology", "provider": "Dr. Jennifer Adams", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Robert Kim", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-29864",
+        "demographics": {
+            "name": "Maya Patel",
+            "dob": "1986-09-23",
+            "age": 37,
+            "gender": "Female",
+            "address": "789 Cascade View, Renton, WA 98055",
+            "phone": "425-555-5656",
+            "email": "mpatel@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "UnitedHealthcare",
+            "planType": "PPO",
+            "policyNumber": "UHC456789123",
+            "groupNumber": "78901",
+            "verificationDate": "2023-04-20"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Thomas Johnson",
+            "diagnoses": ["Asthma", "Eczema", "Food allergies (tree nuts)", "Recurrent sinusitis"],
+            "medications": [
+                "Budesonide/formoterol inhaler BID", 
+                "Montelukast 10mg daily", 
+                "Triamcinolone cream 0.1% PRN", 
+                "Epinephrine auto-injector for emergency"
+            ],
+            "allergies": ["Tree nuts (anaphylaxis)", "Aspirin (bronchospasm)"],
+            "recentLabs": {
+                "Spirometry": "FEV1 85% predicted",
+                "IgE": "elevated",
+                "Allergy testing": "positive to multiple tree nuts"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Allergy follow-up", "date": "2023-05"},
+                {"type": "Pulmonology follow-up", "date": "2023-03"},
+                {"type": "Dermatology follow-up", "date": "2023-01"},
+                {"type": "Primary care visit", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Allergy & Immunology", "provider": "Dr. Lisa Chen", "year": 2023},
+                {"specialty": "Pulmonology", "provider": "Dr. James Wilson", "year": 2023},
+                {"specialty": "Dermatology", "provider": "Dr. Sarah Johnson", "year": 2023},
+                {"specialty": "ENT", "provider": "Dr. Robert Lee", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-30975",
+        "demographics": {
+            "name": "Ethan Miller",
+            "dob": "2012-04-10",
+            "age": 11,
+            "gender": "Male",
+            "address": "234 Lakeview Drive, Kirkland, WA 98033",
+            "phone": "425-555-7878",
+            "email": null,
+            "preferredContact": "parent phone"
+        },
+        "insurance": {
+            "primary": "Premera Blue Cross (parent's plan)",
+            "planType": "PPO",
+            "policyNumber": "PBC234567891",
+            "groupNumber": "89012",
+            "verificationDate": "2023-02-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Jessica Taylor",
+            "diagnoses": ["Autism spectrum disorder", "ADHD", "Mild asthma"],
+            "medications": [
+                "Methylphenidate 10mg BID", 
+                "Fluticasone inhaler daily", 
+                "Albuterol inhaler PRN"
+            ],
+            "allergies": ["Amoxicillin (rash)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "Lead level": "normal",
+                "Spirometry": "mild obstruction, good response to bronchodilator"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Developmental pediatrics", "date": "2023-04"},
+                {"type": "Child psychiatry", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Developmental Pediatrics", "provider": "Dr. Michael Chen", "year": 2023},
+                {"specialty": "Child Psychiatry", "provider": "Dr. Rachel Wilson", "year": 2023},
+                {"specialty": "Pulmonology", "provider": "Dr. Steven Brown", "year": 2022},
+                {"specialty": "Occupational Therapy", "provider": "Sarah Johnson, OT", "year": 2022}
+            ],
+            "patientPortalActive": true,
+            "parentAccess": true,
+            "parentName": "Jennifer Miller"
+        }
+    },
+    {
+        "patientId": "PT-41086",
+        "demographics": {
+            "name": "Jonathan Smith",
+            "dob": "1965-11-08",
+            "age": 57,
+            "gender": "Male",
+            "address": "567 Greenlake Way, Seattle, WA 98103",
+            "phone": "206-555-9090",
+            "email": "jsmith@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Blue Cross Blue Shield",
+            "planType": "PPO",
+            "policyNumber": "BCBS543216789",
+            "groupNumber": "90123",
+            "verificationDate": "2023-03-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Daniel Thompson",
+            "diagnoses": ["Coronary artery disease", "Type 2 diabetes", "Obstructive sleep apnea", "Obesity"],
+            "medications": [
+                "Aspirin 81mg daily", 
+                "Atorvastatin 40mg daily", 
+                "Metoprolol 50mg BID", 
+                "Metformin 1000mg BID", 
+                "Empagliflozin 10mg daily"
+            ],
+            "allergies": ["ACE inhibitors (cough)", "Contrast dye (rash)"],
+            "recentLabs": {
+                "HbA1c": "7.8%",
+                "Lipid panel": "LDL 95 mg/dL",
+                "BMP": "normal",
+                "ECG": "normal sinus rhythm",
+                "Sleep study": "AHI 22/hour"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Cardiology follow-up", "date": "2023-05"},
+                {"type": "Endocrinology follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-03"},
+                {"type": "Sleep medicine follow-up", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Cardiology", "provider": "Dr. Emily Johnson", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. William Park", "year": 2023},
+                {"specialty": "Sleep Medicine", "provider": "Dr. Sarah Adams", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-52197",
+        "demographics": {
+            "name": "Samantha Chen",
+            "dob": "2015-08-12",
+            "age": 7,
+            "gender": "Female",
+            "address": "123 Overlake Drive, Bellevue, WA 98004",
+            "phone": "425-555-1111",
+            "email": null,
+            "preferredContact": "parent phone"
+        },
+        "insurance": {
+            "primary": "Kaiser Permanente (parent's plan)",
+            "planType": "HMO",
+            "policyNumber": "KP987654321",
+            "groupNumber": "12345",
+            "verificationDate": "2023-04-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Maria Rodriguez",
+            "diagnoses": ["Type 1 diabetes (onset at age 5)", "Celiac disease"],
+            "medications": ["Insulin glargine 8 units daily", "Insulin lispro with meals and correction"],
+            "allergies": ["Gluten (celiac disease)"],
+            "recentLabs": {
+                "HbA1c": "7.5%",
+                "Celiac antibodies": "negative on gluten-free diet",
+                "CBC": "normal",
+                "CMP": "normal"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Pediatric endocrinology", "date": "2023-05"},
+                {"type": "Pediatric gastroenterology", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-04"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Pediatric Endocrinology", "provider": "Dr. Michael Wilson", "year": 2023},
+                {"specialty": "Pediatric Gastroenterology", "provider": "Dr. Sarah Taylor", "year": 2023},
+                {"specialty": "Diabetes Educator", "provider": "Jennifer Brown, RN", "year": 2023},
+                {"specialty": "Nutritionist", "provider": "David Johnson, RD", "year": 2022}
+            ],
+            "patientPortalActive": true,
+            "parentAccess": true,
+            "parentName": "Andrew Chen"
+        }
+    },
+    {
+        "patientId": "PT-63208",
+        "demographics": {
+            "name": "Olivia Washington",
+            "dob": "2004-01-15",
+            "age": 19,
+            "gender": "Female",
+            "address": "789 University Way, Seattle, WA 98105",
+            "phone": "206-555-2222",
+            "email": "owashington@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "UnitedHealthcare Student Resources",
+            "planType": "Student Health Plan",
+            "policyNumber": "UHCSR876543210",
+            "groupNumber": "23456",
+            "verificationDate": "2023-02-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Robert Jones",
+            "diagnoses": ["Major depressive disorder", "Generalized anxiety disorder", "Migraine with aura"],
+            "medications": ["Escitalopram 20mg daily", "Propranolol 20mg PRN for migraine", "Sumatriptan 50mg PRN"],
+            "allergies": ["No known allergies"],
+            "recentLabs": {
+                "CBC": "normal",
+                "TSH": "normal",
+                "Vitamin D": "low"
+            },
+            "lastPhysical": "2022-08"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Psychiatry follow-up", "date": "2023-05"},
+                {"type": "Student health center", "date": "2023-03"},
+                {"type": "Neurology consultation", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Psychiatry", "provider": "Dr. Jessica Miller", "year": 2023},
+                {"specialty": "Neurology", "provider": "Dr. Thomas Chen", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-74319",
+        "demographics": {
+            "name": "Benjamin Taylor",
+            "dob": "1956-06-20",
+            "age": 67,
+            "gender": "Male",
+            "address": "456 Magnolia Blvd, Seattle, WA 98199",
+            "phone": "206-555-3333",
+            "email": "btaylor@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "Medigap Plan F",
+            "planType": "Original Medicare",
+            "policyNumber": "MED345678912",
+            "verificationDate": "2023-01-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Sarah Wilson",
+            "diagnoses": ["Prostate cancer (s/p prostatectomy 2020)", "Erectile dysfunction", "Hypertension", "Hyperlipidemia"],
+            "medications": [
+                "Amlodipine 5mg daily", 
+                "Rosuvastatin 10mg daily", 
+                "Tadalafil 5mg daily", 
+                "Vitamin D 1000 IU daily"
+            ],
+            "allergies": ["Lisinopril (angioedema)"],
+            "recentLabs": {
+                "PSA": "<0.1 ng/mL",
+                "CBC": "normal",
+                "CMP": "normal",
+                "Lipid panel": "LDL 85 mg/dL"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Urology follow-up", "date": "2023-05"},
+                {"type": "Primary care visit", "date": "2023-01"},
+                {"type": "Cardiology follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Urology", "provider": "Dr. Richard Johnson", "year": 2023},
+                {"specialty": "Cardiology", "provider": "Dr. Michael Adams", "year": 2022},
+                {"specialty": "Radiation Oncology", "provider": "Dr. Jennifer Park", "year": 2020}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-85420",
+        "demographics": {
+            "name": "Sophia Rodriguez",
+            "dob": "1990-11-12",
+            "age": 32,
+            "gender": "Female",
+            "address": "234 Capitol Hill Ave, Seattle, WA 98122",
+            "phone": "206-555-4444",
+            "email": "srodriguez@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Cigna",
+            "planType": "PPO",
+            "policyNumber": "CIG654321789",
+            "groupNumber": "34567",
+            "verificationDate": "2023-03-20"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Michael Thompson",
+            "diagnoses": ["Endometriosis", "Iron deficiency anemia", "Migraine", "Anxiety disorder"],
+            "medications": [
+                "Combined oral contraceptive", 
+                "Iron sulfate 325mg BID", 
+                "Sumatriptan 100mg PRN", 
+                "Sertraline 50mg daily"
+            ],
+            "allergies": ["Codeine (nausea)", "Latex (contact dermatitis)"],
+            "recentLabs": {
+                "CBC": "Hgb 11.0 g/dL",
+                "Ferritin": "18 ng/mL",
+                "TSH": "normal",
+                "Vitamin D": "low"
+            },
+            "lastPhysical": "2022-11"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Gynecology follow-up", "date": "2023-04"},
+                {"type": "Pain management", "date": "2023-03"},
+                {"type": "Psychiatry follow-up", "date": "2023-02"},
+                {"type": "Primary care visit", "date": "2022-11"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Gynecology", "provider": "Dr. Elizabeth Adams", "year": 2023},
+                {"specialty": "Pain Medicine", "provider": "Dr. James Chen", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Laura Garcia", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-96531",
+        "demographics": {
+            "name": "Marcus Johnson",
+            "dob": "1973-03-28",
+            "age": 50,
+            "gender": "Male",
+            "address": "567 Ballard Avenue, Seattle, WA 98107",
+            "phone": "206-555-5555",
+            "email": "mjohnson@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Aetna",
+            "planType": "PPO",
+            "policyNumber": "AET987123654",
+            "groupNumber": "45678",
+            "verificationDate": "2023-02-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Lisa Brown",
+            "diagnoses": ["HIV (well-controlled)", "Major depressive disorder", "Hyperlipidemia", "Vitamin D deficiency"],
+            "medications": [
+                "Biktarvy 1 tablet daily", 
+                "Bupropion XL 300mg daily", 
+                "Atorvastatin 10mg daily", 
+                "Vitamin D 2000 IU daily"
+            ],
+            "allergies": ["Efavirenz (psychiatric symptoms)", "Sulfa drugs (rash)"],
+            "recentLabs": {
+                "CD4": "750 cells/mm³",
+                "HIV viral load": "undetectable",
+                "CBC": "normal",
+                "Lipid panel": "LDL 100 mg/dL",
+                "Vitamin D": "30 ng/mL"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Infectious disease follow-up", "date": "2023-05"},
+                {"type": "Psychiatry follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Infectious Disease", "provider": "Dr. Jennifer Wilson", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. David Martinez", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-10763",
+        "demographics": {
+            "name": "Emma Davis",
+            "dob": "2010-05-15",
+            "age": 13,
+            "gender": "Female",
+            "address": "123 Medina Drive, Medina, WA 98039",
+            "phone": "425-555-6666",
+            "email": null,
+            "preferredContact": "parent phone"
+        },
+        "insurance": {
+            "primary": "Regence BlueShield (parent's plan)",
+            "planType": "PPO",
+            "policyNumber": "RBS456789012",
+            "groupNumber": "56789",
+            "verificationDate": "2023-03-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Mark Wilson",
+            "diagnoses": ["Cystic fibrosis", "CF-related diabetes", "Chronic sinusitis"],
+            "medications": [
+                "Lumacaftor/ivacaftor BID", 
+                "Dornase alfa inhalation daily", 
+                "Hypertonic saline inhalation BID", 
+                "Pancrelipase with meals", 
+                "Insulin glargine 10 units daily"
+            ],
+            "allergies": ["Tobramycin (rash)"],
+            "recentLabs": {
+                "PFTs": "FEV1 76% predicted",
+                "HbA1c": "7.8%",
+                "Sputum culture": "Pseudomonas aeruginosa, sensitive to ciprofloxacin",
+                "CBC": "normal",
+                "CMP": "normal"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Pediatric pulmonology", "date": "2023-05"},
+                {"type": "Pediatric endocrinology", "date": "2023-04"},
+                {"type": "ENT follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-03"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Pediatric Pulmonology", "provider": "Dr. Sarah Johnson", "year": 2023},
+                {"specialty": "Pediatric Endocrinology", "provider": "Dr. Michael Chen", "year": 2023},
+                {"specialty": "ENT", "provider": "Dr. Robert Brown", "year": 2023},
+                {"specialty": "CF Nurse Coordinator", "provider": "Jennifer Smith, RN", "year": 2023},
+                {"specialty": "Respiratory Therapy", "provider": "David Wilson, RT", "year": 2023},
+                {"specialty": "Nutrition", "provider": "Emily Garcia, RD", "year": 2023}
+            ],
+            "patientPortalActive": true,
+            "parentAccess": true,
+            "parentName": "Katherine Davis"
+        }
+    },
+    {
+        "patientId": "PT-21874",
+        "demographics": {
+            "name": "David Martin",
+            "dob": "1953-12-01",
+            "age": 69,
+            "gender": "Male",
+            "address": "456 Mercer Island Way, Mercer Island, WA 98040",
+            "phone": "206-555-7777",
+            "email": "dmartin@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "Regence MedAdvantage",
+            "planType": "Medicare Advantage",
+            "policyNumber": "MED567891234",
+            "verificationDate": "2023-01-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Jennifer Adams",
+            "diagnoses": ["Stroke (2019)", "Atrial fibrillation", "Hypertension", "Type 2 diabetes", "History of DVT"],
+            "medications": [
+                "Apixaban 5mg BID", 
+                "Metoprolol 25mg BID", 
+                "Lisinopril 20mg daily", 
+                "Metformin 1000mg BID", 
+                "Sitagliptin 100mg daily", 
+                "Atorvastatin 40mg daily"
+            ],
+            "allergies": ["Warfarin (excessive INR fluctuation)", "Penicillin (rash)"],
+            "recentLabs": {
+                "HbA1c": "7.1%",
+                "Lipid panel": "LDL 85 mg/dL",
+                "BMP": "normal",
+                "CBC": "normal",
+                "ECG": "controlled atrial fibrillation"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Cardiology follow-up", "date": "2023-05"},
+                {"type": "Neurology follow-up", "date": "2023-04"},
+                {"type": "Endocrinology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Cardiology", "provider": "Dr. Michael Park", "year": 2023},
+                {"specialty": "Neurology", "provider": "Dr. Sarah Wilson", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. Thomas Lee", "year": 2023},
+                {"specialty": "Physical Therapy", "provider": "Jennifer Brown, PT", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-32985",
+        "demographics": {
+            "name": "Aisha Khan",
+            "dob": "1998-08-30",
+            "age": 24,
+            "gender": "Female",
+            "address": "789 Downtown Ave, Seattle, WA 98101",
+            "phone": "206-555-8888",
+            "email": "akhan@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "Apple Health (Medicaid)",
+            "planType": "Managed Medicaid",
+            "policyNumber": "AHW123456789",
+            "verificationDate": "2023-04-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Robert Garcia",
+            "diagnoses": ["Sickle cell disease", "Iron overload (from transfusions)", "Depression"],
+            "medications": [
+                "Hydroxyurea 1000mg daily", 
+                "Folic acid 1mg daily", 
+                "Deferasirox 1000mg daily", 
+                "Fluoxetine 20mg daily", 
+                "Oxycodone 5mg PRN for pain crisis"
+            ],
+            "allergies": ["Morphine (urticaria)"],
+            "recentLabs": {
+                "CBC": "Hgb 9.5 g/dL, MCV 95 fL",
+                "Reticulocyte count": "8%",
+                "Ferritin": "1500 ng/mL",
+                "Liver function": "mildly elevated",
+                "HbS": "60%",
+                "HbF": "15%"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Hematology follow-up", "date": "2023-05"},
+                {"type": "Pain management", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-04"},
+                {"type": "Emergency visit - pain crisis", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Hematology", "provider": "Dr. Jennifer Thompson", "year": 2023},
+                {"specialty": "Pain Medicine", "provider": "Dr. Michael Jones", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Sarah Adams", "year": 2023},
+                {"specialty": "Hepatology", "provider": "Dr. Thomas Miller", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-43096",
+        "demographics": {
+            "name": "Jacob Thompson",
+            "dob": "1984-05-04",
+            "age": 39,
+            "gender": "Male",
+            "address": "123 First Hill, Seattle, WA 98104",
+            "phone": "206-555-9999",
+            "email": "jthompson@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Blue Cross Blue Shield",
+            "planType": "HDHP with HSA",
+            "policyNumber": "BCBS678912345",
+            "groupNumber": "67890",
+            "verificationDate": "2023-03-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Elizabeth Kim",
+            "diagnoses": ["Addison's disease", "Hypothyroidism", "Vitiligo", "Celiac disease"],
+            "medications": [
+                "Hydrocortisone 15mg AM, 5mg PM", 
+                "Fludrocortisone 0.1mg daily", 
+                "Levothyroxine 125mcg daily"
+            ],
+            "allergies": ["Gluten (celiac disease)"],
+            "recentLabs": {
+                "ACTH": "normal on replacement",
+                "Cortisol": "normal on replacement",
+                "TSH": "1.8 mIU/L",
+                "Free T4": "normal",
+                "Electrolytes": "normal",
+                "Celiac antibodies": "negative on gluten-free diet"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Endocrinology follow-up", "date": "2023-05"},
+                {"type": "Gastroenterology follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-03"},
+                {"type": "Dermatology follow-up", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Endocrinology", "provider": "Dr. Sarah Wilson", "year": 2023},
+                {"specialty": "Gastroenterology", "provider": "Dr. Michael Johnson", "year": 2023},
+                {"specialty": "Dermatology", "provider": "Dr. Jennifer Garcia", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-54107",
+        "demographics": {
+            "name": "Rebecca Williams",
+            "dob": "1970-07-22",
+            "age": 53,
+            "gender": "Female",
+            "address": "456 Queen Anne Ave, Seattle, WA 98109",
+            "phone": "206-555-0101",
+            "email": "rwilliams@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Premera Blue Cross",
+            "planType": "PPO",
+            "policyNumber": "PBC891234567",
+            "groupNumber": "78901",
+            "verificationDate": "2023-02-20"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Thomas Lee",
+            "diagnoses": ["Multiple sclerosis (relapsing-remitting)", "Depression", "Migraines", "Osteopenia"],
+            "medications": [
+                "Ocrelizumab infusion every 6 months", 
+                "Escitalopram 10mg daily", 
+                "Sumatriptan 100mg PRN", 
+                "Calcium + Vitamin D supplement daily"
+            ],
+            "allergies": ["Interferon beta (flu-like symptoms, injection site reactions)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "MRI brain": "stable lesions",
+                "MRI spine": "no new lesions",
+                "Vitamin D": "normal"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Neurology follow-up", "date": "2023-05"},
+                {"type": "Psychiatry follow-up", "date": "2023-04"},
+                {"type": "Ocrelizumab infusion", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Neurology", "provider": "Dr. Michael Chen", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Jennifer Adams", "year": 2023},
+                {"specialty": "Physical Therapy", "provider": "David Wilson, PT", "year": 2022},
+                {"specialty": "Pain Medicine", "provider": "Dr. Sarah Johnson", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-65218",
+        "demographics": {
+            "name": "Noah Garcia",
+            "dob": "2018-02-10",
+            "age": 5,
+            "gender": "Male",
+            "address": "789 Eastside Road, Bellevue, WA 98005",
+            "phone": "425-555-1212",
+            "email": null,
+            "preferredContact": "parent phone"
+        },
+        "insurance": {
+            "primary": "Aetna (parent's plan)",
+            "planType": "PPO",
+            "policyNumber": "AET345678912",
+            "groupNumber": "89012",
+            "verificationDate": "2023-04-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Jessica Brown",
+            "diagnoses": ["Acute lymphoblastic leukemia (diagnosis 2021, in maintenance phase)", "History of neutropenic fever"],
+            "medications": [
+                "Mercaptopurine daily", 
+                "Methotrexate weekly", 
+                "Vincristine monthly", 
+                "Dexamethasone 5 days monthly",
+                "Bactrim prophylaxis"
+            ],
+            "allergies": ["No known allergies"],
+            "recentLabs": {
+                "CBC": "WBC 3.5 K/μL, ANC 1800/μL, Hgb 11.2 g/dL, Platelets 150 K/μL",
+                "CMP": "normal",
+                "Minimal residual disease": "negative"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Pediatric oncology", "date": "2023-05"},
+                {"type": "Primary care visit", "date": "2023-04"},
+                {"type": "Emergency visit - fever", "date": "2023-03"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Pediatric Oncology", "provider": "Dr. Michael Wilson", "year": 2023},
+                {"specialty": "Pediatric Infectious Disease", "provider": "Dr. Sarah Thompson", "year": 2023},
+                {"specialty": "Child Life Specialist", "provider": "Jennifer Adams", "year": 2023},
+                {"specialty": "Social Worker", "provider": "David Martinez", "year": 2022}
+            ],
+            "patientPortalActive": true,
+            "parentAccess": true,
+            "parentName": "Maria Garcia"
+        }
+    },
+    {
+        "patientId": "PT-76329",
+        "demographics": {
+            "name": "William Park",
+            "dob": "1964-09-18",
+            "age": 58,
+            "gender": "Male",
+            "address": "123 Beacon Hill, Seattle, WA 98108",
+            "phone": "206-555-2323",
+            "email": "wpark@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "Cigna supplemental",
+            "planType": "Original Medicare",
+            "policyNumber": "MED789123456",
+            "verificationDate": "2023-01-20"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Robert Wilson",
+            "diagnoses": [
+                "Kidney transplant recipient (2018)", 
+                "Hypertension", 
+                "Type 2 diabetes", 
+                "History of ESRD", 
+                "Secondary hyperparathyroidism",
+                "History of renal cell carcinoma (2017)"
+            ],
+            "medications": [
+                "Tacrolimus 2mg BID", 
+                "Mycophenolate mofetil 500mg BID", 
+                "Prednisone 5mg daily", 
+                "Amlodipine 5mg daily", 
+                "Insulin glargine 15 units daily", 
+                "Insulin lispro with meals"
+            ],
+            "allergies": ["ACE inhibitors (increased creatinine)", "Sirolimus (pneumonitis)"],
+            "recentLabs": {
+                "Creatinine": "1.4 mg/dL",
+                "eGFR": "56 mL/min/1.73m²",
+                "Tacrolimus level": "6.5 ng/mL",
+                "HbA1c": "7.3%",
+                "Parathyroid hormone": "slightly elevated"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Transplant nephrology", "date": "2023-05"},
+                {"type": "Endocrinology follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-01"},
+                {"type": "Urology follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Transplant Nephrology", "provider": "Dr. Sarah Johnson", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. Jennifer Adams", "year": 2023},
+                {"specialty": "Urology", "provider": "Dr. Michael Chen", "year": 2022},
+                {"specialty": "Cardiology", "provider": "Dr. Thomas Lee", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-87430",
+        "demographics": {
+            "name": "Grace Wilson",
+            "dob": "1937-03-25",
+            "age": 86,
+            "gender": "Female",
+            "address": "456 Senior Living Way, Edmonds, WA 98026",
+            "phone": "425-555-3434",
+            "email": null,
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "AARP Medicare Complete",
+            "planType": "Original Medicare",
+            "policyNumber": "MED456789123",
+            "verificationDate": "2023-01-05"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Michael Martinez",
+            "diagnoses": [
+                "Advanced dementia (Alzheimer's type)", 
+                "Congestive heart failure", 
+                "Atrial fibrillation", 
+                "Osteoporosis", 
+                "Chronic kidney disease (stage 3)",
+                "History of breast cancer (2005)"
+            ],
+            "medications": [
+                "Donepezil 10mg daily", 
+                "Memantine 10mg BID", 
+                "Furosemide 40mg daily", 
+                "Metoprolol 25mg BID", 
+                "Apixaban 2.5mg BID", 
+                "Alendronate 70mg weekly"
+            ],
+            "allergies": ["Amiodarone (thyroid dysfunction)", "Warfarin (GI bleeding)"],
+            "recentLabs": {
+                "BNP": "elevated",
+                "BMP": "eGFR 45 mL/min/1.73m²",
+                "CBC": "normal",
+                "TSH": "normal"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Geriatrics follow-up", "date": "2023-05"},
+                {"type": "Neurology follow-up", "date": "2023-04"},
+                {"type": "Cardiology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Geriatrics", "provider": "Dr. Jennifer Thompson", "year": 2023},
+                {"specialty": "Neurology", "provider": "Dr. Thomas Wilson", "year": 2023},
+                {"specialty": "Cardiology", "provider": "Dr. Sarah Johnson", "year": 2023},
+                {"specialty": "Palliative Care", "provider": "Dr. Michael Adams", "year": 2022}
+            ],
+            "patientPortalActive": false,
+            "caregiver": {
+                "name": "Robert Wilson",
+                "relationship": "Son",
+                "phone": "425-555-3535",
+                "email": "rwilson@email.com"
+            }
+        }
+    },
+    {
+        "patientId": "PT-98541",
+        "demographics": {
+            "name": "Ethan Lee",
+            "dob": "1989-10-05",
+            "age": 33,
+            "gender": "Male",
+            "address": "789 Fremont Ave, Seattle, WA 98103",
+            "phone": "206-555-4545",
+            "email": "elee@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "UnitedHealthcare",
+            "planType": "PPO",
+            "policyNumber": "UHC098765432",
+            "groupNumber": "90123",
+            "verificationDate": "2023-03-05"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Sarah Brown",
+            "diagnoses": ["Spinal cord injury (T10 complete, MVA 2015)", "Neurogenic bladder", "Pressure ulcer (healed)", "Depression"],
+            "medications": [
+                "Baclofen 20mg TID", 
+                "Oxybutynin 5mg TID", 
+                "Docusate sodium 100mg BID", 
+                "Sertraline 100mg daily"
+            ],
+            "allergies": ["Ciprofloxacin (tendinitis)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "Urinalysis": "negative for infection"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "PM&R follow-up", "date": "2023-05"},
+                {"type": "Urology follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-03"},
+                {"type": "Psychiatry follow-up", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Physical Medicine & Rehabilitation", "provider": "Dr. Jennifer Adams", "year": 2023},
+                {"specialty": "Urology", "provider": "Dr. Michael Park", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Sarah Wilson", "year": 2023},
+                {"specialty": "Physical Therapy", "provider": "David Johnson, PT", "year": 2022},
+                {"specialty": "Occupational Therapy", "provider": "Emily Garcia, OT", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-19862",
+        "demographics": {
+            "name": "Isabella Martinez",
+            "dob": "2016-11-20",
+            "age": 6,
+            "gender": "Female",
+            "address": "123 Central District, Seattle, WA 98122",
+            "phone": "206-555-5656",
+            "email": null,
+            "preferredContact": "parent phone"
+        },
+        "insurance": {
+            "primary": "Apple Health (Medicaid)",
+            "planType": "Managed Medicaid",
+            "policyNumber": "AHW234567891",
+            "verificationDate": "2023-04-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Thomas Brown",
+            "diagnoses": ["Congenital heart disease (Tetralogy of Fallot, repaired)", "Developmental delay", "Failure to thrive"],
+            "medications": ["Enalapril 2.5mg daily", "Multivitamin daily"],
+            "allergies": ["No known allergies"],
+            "recentLabs": {
+                "CBC": "normal",
+                "BMP": "normal",
+                "Echocardiogram": "good ventricular function, mild pulmonary regurgitation"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Pediatric cardiology", "date": "2023-05"},
+                {"type": "Developmental pediatrics", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-04"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Pediatric Cardiology", "provider": "Dr. Jennifer Wilson", "year": 2023},
+                {"specialty": "Developmental Pediatrics", "provider": "Dr. Michael Adams", "year": 2023},
+                {"specialty": "Speech Therapy", "provider": "Sarah Johnson, SLP", "year": 2023},
+                {"specialty": "Physical Therapy", "provider": "Emily Lee, PT", "year": 2023},
+                {"specialty": "Occupational Therapy", "provider": "David Park, OT", "year": 2022}
+            ],
+            "patientPortalActive": true,
+            "parentAccess": true,
+            "parentName": "Elena Martinez"
+        }
+    },
+    {
+        "patientId": "PT-20973",
+        "demographics": {
+            "name": "Liam Wilson",
+            "dob": "1992-08-15",
+            "age": 30,
+            "gender": "Male",
+            "address": "456 South Lake Union, Seattle, WA 98109",
+            "phone": "206-555-6767",
+            "email": "lwilson@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Premera Blue Cross",
+            "planType": "PPO",
+            "policyNumber": "PBC345678912",
+            "groupNumber": "12345",
+            "verificationDate": "2023-02-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Jennifer Park",
+            "diagnoses": ["Marfan syndrome", "Aortic root dilation", "Mitral valve prolapse", "Anxiety disorder"],
+            "medications": ["Losartan 50mg daily", "Metoprolol 25mg BID", "Escitalopram 10mg daily"],
+            "allergies": ["Sulfa drugs (rash)"],
+            "recentLabs": {
+                "ECG": "normal sinus rhythm",
+                "Echocardiogram": "aortic root 4.2cm, mild mitral regurgitation",
+                "CT aorta": "no dissection",
+                "CBC": "normal",
+                "CMP": "normal"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Cardiology follow-up", "date": "2023-05"},
+                {"type": "Genetics follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-02"},
+                {"type": "Ophthalmology follow-up", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Cardiology", "provider": "Dr. Michael Johnson", "year": 2023},
+                {"specialty": "Medical Genetics", "provider": "Dr. Sarah Adams", "year": 2023},
+                {"specialty": "Ophthalmology", "provider": "Dr. Thomas Lee", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Jennifer Garcia", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-31084",
+        "demographics": {
+            "name": "Sophia Chen",
+            "dob": "1985-03-28",
+            "age": 38,
+            "gender": "Female",
+            "address": "789 West Seattle Bridge, Seattle, WA 98126",
+            "phone": "206-555-7878",
+            "email": "schen@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "Kaiser Permanente",
+            "planType": "HMO",
+            "policyNumber": "KP456789123",
+            "groupNumber": "23456",
+            "verificationDate": "2023-03-20"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. David Thompson",
+            "diagnoses": ["Systemic lupus erythematosus", "Lupus nephritis (class IV, in remission)", "Raynaud's phenomenon", "Depression"],
+            "medications": [
+                "Hydroxychloroquine 400mg daily", 
+                "Mycophenolate mofetil 1000mg BID", 
+                "Prednisone 5mg daily", 
+                "Amlodipine 5mg daily", 
+                "Sertraline 50mg daily"
+            ],
+            "allergies": ["Sulfa drugs (severe rash)", "Ibuprofen (GI upset)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "dsDNA antibodies": "negative",
+                "Complement levels": "normal",
+                "Urinalysis": "no proteinuria",
+                "Urine protein/creatinine ratio": "0.2"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Rheumatology follow-up", "date": "2023-05"},
+                {"type": "Nephrology follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-03"},
+                {"type": "Psychiatry follow-up", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Rheumatology", "provider": "Dr. Sarah Wilson", "year": 2023},
+                {"specialty": "Nephrology", "provider": "Dr. Michael Park", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Jennifer Adams", "year": 2023},
+                {"specialty": "Dermatology", "provider": "Dr. Thomas Garcia", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-42195",
+        "demographics": {
+            "name": "Henry Johnson",
+            "dob": "2008-12-10",
+            "age": 14,
+            "gender": "Male",
+            "address": "123 Northshore Drive, Bothell, WA 98011",
+            "phone": "425-555-8989",
+            "email": null,
+            "preferredContact": "parent phone"
+        },
+        "insurance": {
+            "primary": "Cigna (parent's plan)",
+            "planType": "PPO",
+            "policyNumber": "CIG567891234",
+            "groupNumber": "34567",
+            "verificationDate": "2023-02-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Rachel Adams",
+            "diagnoses": ["Duchenne muscular dystrophy", "Cardiomyopathy", "Scoliosis", "Obstructive sleep apnea"],
+            "medications": [
+                "Deflazacort 36mg daily", 
+                "Lisinopril 5mg daily", 
+                "Carvedilol 6.25mg BID", 
+                "Vitamin D 1000 IU daily", 
+                "Calcium supplement daily"
+            ],
+            "allergies": ["No known allergies"],
+            "recentLabs": {
+                "CK": "elevated",
+                "BNP": "slightly elevated",
+                "Echocardiogram": "mild LV dysfunction, EF 48%",
+                "Pulmonary function tests": "FVC 65% predicted",
+                "Sleep study": "AHI 8/hour"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Pediatric neurology", "date": "2023-05"},
+                {"type": "Pediatric cardiology", "date": "2023-04"},
+                {"type": "Pediatric pulmonology", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-02"},
+                {"type": "Orthopedics follow-up", "date": "2023-01"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Pediatric Neurology", "provider": "Dr. Michael Wilson", "year": 2023},
+                {"specialty": "Pediatric Cardiology", "provider": "Dr. Sarah Thompson", "year": 2023},
+                {"specialty": "Pediatric Pulmonology", "provider": "Dr. Jennifer Lee", "year": 2023},
+                {"specialty": "Orthopedic Surgery", "provider": "Dr. Thomas Brown", "year": 2023},
+                {"specialty": "Physical Therapy", "provider": "David Garcia, PT", "year": 2023},
+                {"specialty": "Occupational Therapy", "provider": "Emily Chen, OT", "year": 2022}
+            ],
+            "patientPortalActive": true,
+            "parentAccess": true,
+            "parentName": "Melissa Johnson"
+        }
+    },
+    {
+        "patientId": "PT-53206",
+        "demographics": {
+            "name": "Lucas Thompson",
+            "dob": "1995-04-15",
+            "age": 28,
+            "gender": "Male",
+            "address": "456 Madison Valley, Seattle, WA 98112",
+            "phone": "206-555-9090",
+            "email": "lthompson@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "Molina Healthcare",
+            "planType": "Marketplace Exchange",
+            "policyNumber": "MOL678912345",
+            "verificationDate": "2023-04-05"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Emily Wilson",
+            "diagnoses": ["Schizophrenia", "Substance use disorder (in remission)", "Tobacco use disorder", "Metabolic syndrome"],
+            "medications": [
+                "Paliperidone palmitate injection monthly", 
+                "Bupropion SR 150mg BID", 
+                "Metformin 500mg BID", 
+                "Atorvastatin 20mg daily"
+            ],
+            "allergies": ["Risperidone (akathisia)", "Haloperidol (dystonia)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "Lipid panel": "elevated triglycerides and LDL",
+                "HbA1c": "6.0%",
+                "Prolactin": "mildly elevated"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Psychiatry follow-up", "date": "2023-05"},
+                {"type": "Primary care visit", "date": "2023-04"},
+                {"type": "Addiction medicine follow-up", "date": "2023-03"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Psychiatry", "provider": "Dr. Michael Adams", "year": 2023},
+                {"specialty": "Addiction Medicine", "provider": "Dr. Sarah Johnson", "year": 2023},
+                {"specialty": "Case Management", "provider": "Jennifer Garcia, MSW", "year": 2023}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-64317",
+        "demographics": {
+            "name": "Mia Jones",
+            "dob": "1991-09-18",
+            "age": 31,
+            "gender": "Female",
+            "address": "789 Capitol Hill, Seattle, WA 98122",
+            "phone": "206-555-0101",
+            "email": "mjones@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Aetna",
+            "planType": "PPO",
+            "policyNumber": "AET987654321",
+            "groupNumber": "45678",
+            "verificationDate": "2023-03-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Thomas Wilson",
+            "diagnoses": ["Rheumatoid arthritis", "Interstitial lung disease", "Osteoporosis", "Anxiety disorder"],
+            "medications": [
+                "Adalimumab 40mg every 2 weeks", 
+                "Methotrexate 15mg weekly", 
+                "Folic acid 1mg daily", 
+                "Prednisone 5mg daily", 
+                "Alendronate 70mg weekly", 
+                "Calcium + Vitamin D supplement daily"
+            ],
+            "allergies": ["Infliximab (infusion reaction)", "Sulfa drugs (rash)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "ESR": "22 mm/hr",
+                "CRP": "8 mg/L",
+                "Rheumatoid factor": "positive",
+                "Anti-CCP": "strongly positive",
+                "PFTs": "mild restriction"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Rheumatology follow-up", "date": "2023-05"},
+                {"type": "Pulmonology follow-up", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-03"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Rheumatology", "provider": "Dr. Sarah Park", "year": 2023},
+                {"specialty": "Pulmonology", "provider": "Dr. Michael Chen", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. Jennifer Adams", "year": 2022},
+                {"specialty": "Psychiatry", "provider": "Dr. David Thompson", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-75428",
+        "demographics": {
+            "name": "Samuel Brown",
+            "dob": "1954-05-23",
+            "age": 69,
+            "gender": "Male",
+            "address": "123 Lake City Way, Seattle, WA 98125",
+            "phone": "206-555-1212",
+            "email": "sbrown@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Medicare",
+            "secondary": "AARP Medicare Supplement",
+            "planType": "Original Medicare",
+            "policyNumber": "MED678912345",
+            "verificationDate": "2023-01-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Rachel Wilson",
+            "diagnoses": ["Parkinson's disease", "Essential tremor", "Coronary artery disease", "BPH", "Osteoarthritis"],
+            "medications": [
+                "Carbidopa-levodopa 25-100mg QID", 
+                "Ropinirole 2mg TID", 
+                "Aspirin 81mg daily", 
+                "Atorvastatin 40mg daily", 
+                "Tamsulosin 0.4mg daily", 
+                "Acetaminophen 500mg PRN"
+            ],
+            "allergies": ["Pramipexole (orthostatic hypotension)", "Fluoxetine (agitation)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "Lipid panel": "LDL 85 mg/dL",
+                "PSA": "2.8 ng/mL",
+                "MRI brain": "typical Parkinson's changes"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Neurology follow-up", "date": "2023-05"},
+                {"type": "Cardiology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-01"},
+                {"type": "Urology follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Neurology", "provider": "Dr. Michael Johnson", "year": 2023},
+                {"specialty": "Cardiology", "provider": "Dr. Sarah Thompson", "year": 2023},
+                {"specialty": "Urology", "provider": "Dr. Jennifer Park", "year": 2022},
+                {"specialty": "Physical Therapy", "provider": "David Wilson, PT", "year": 2022},
+                {"specialty": "Speech Therapy", "provider": "Emily Garcia, SLP", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-86539",
+        "demographics": {
+            "name": "Charlotte Miller",
+            "dob": "2017-10-08",
+            "age": 5,
+            "gender": "Female",
+            "address": "456 Magnolia Drive, Edmonds, WA 98020",
+            "phone": "425-555-2323",
+            "email": null,
+            "preferredContact": "parent phone"
+        },
+        "insurance": {
+            "primary": "Blue Cross Blue Shield (parent's plan)",
+            "planType": "PPO",
+            "policyNumber": "BCBS098765432",
+            "groupNumber": "56789",
+            "verificationDate": "2023-04-01"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Jennifer Brown",
+            "diagnoses": ["Spina bifida (myelomeningocele)", "Neurogenic bladder", "Hydrocephalus (VP shunt)", "Clubfoot (repaired)"],
+            "medications": [
+                "Oxybutynin 2.5mg TID", 
+                "Polyethylene glycol 3350 daily"
+            ],
+            "allergies": ["Latex (urticaria)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "normal",
+                "Urinalysis": "negative for infection",
+                "Head ultrasound": "stable ventricular size"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Pediatric neurosurgery", "date": "2023-05"},
+                {"type": "Pediatric urology", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-04"},
+                {"type": "Pediatric orthopedics", "date": "2023-03"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Pediatric Neurosurgery", "provider": "Dr. Michael Wilson", "year": 2023},
+                {"specialty": "Pediatric Urology", "provider": "Dr. Sarah Thompson", "year": 2023},
+                {"specialty": "Pediatric Orthopedics", "provider": "Dr. David Johnson", "year": 2023},
+                {"specialty": "Physical Therapy", "provider": "Jennifer Lee, PT", "year": 2023},
+                {"specialty": "Occupational Therapy", "provider": "Emily Adams, OT", "year": 2023}
+            ],
+            "patientPortalActive": true,
+            "parentAccess": true,
+            "parentName": "Rebecca Miller"
+        }
+    },
+    {
+        "patientId": "PT-97640",
+        "demographics": {
+            "name": "Nathan Wilson",
+            "dob": "2005-07-14",
+            "age": 17,
+            "gender": "Male",
+            "address": "789 Greenlake Way, Seattle, WA 98103",
+            "phone": "206-555-3434",
+            "email": "nwilson@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "Premera Blue Cross (parent's plan)",
+            "planType": "PPO",
+            "policyNumber": "PBC098765432",
+            "groupNumber": "67890",
+            "verificationDate": "2023-03-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Thomas Brown",
+            "diagnoses": ["Cystic fibrosis", "Pancreatic insufficiency", "Allergic bronchopulmonary aspergillosis", "Anxiety disorder"],
+            "medications": [
+                "Elexacaftor/tezacaftor/ivacaftor daily", 
+                "Dornase alfa inhalation daily", 
+                "Hypertonic saline inhalation BID", 
+                "Pancrelipase with meals", 
+                "Itraconazole 200mg BID", 
+                "Sertraline 50mg daily"
+            ],
+            "allergies": ["No known allergies"],
+            "recentLabs": {
+                "PFTs": "FEV1 72% predicted",
+                "Sputum culture": "Pseudomonas aeruginosa, sensitive to tobramycin",
+                "CBC": "normal",
+                "CMP": "normal",
+                "IgE": "elevated",
+                "Aspergillus antibodies": "positive"
+            },
+            "lastPhysical": "2023-03"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Pediatric pulmonology", "date": "2023-05"},
+                {"type": "Pediatric gastroenterology", "date": "2023-04"},
+                {"type": "Primary care visit", "date": "2023-03"},
+                {"type": "Child psychiatry", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Pediatric Pulmonology", "provider": "Dr. Sarah Johnson", "year": 2023},
+                {"specialty": "Pediatric Gastroenterology", "provider": "Dr. Michael Park", "year": 2023},
+                {"specialty": "Child Psychiatry", "provider": "Dr. Jennifer Adams", "year": 2023},
+                {"specialty": "CF Nurse Coordinator", "provider": "Emily Thompson, RN", "year": 2023},
+                {"specialty": "Respiratory Therapy", "provider": "David Chen, RT", "year": 2023},
+                {"specialty": "Nutrition", "provider": "Sarah Wilson, RD", "year": 2022}
+            ],
+            "patientPortalActive": true,
+            "parentAccess": true,
+            "parentName": "Angela Wilson"
+        }
+    },
+    {
+        "patientId": "PT-11792",
+        "demographics": {
+            "name": "Amelia Garcia",
+            "dob": "1981-08-12",
+            "age": 41,
+            "gender": "Female",
+            "address": "123 Downtown Ave, Seattle, WA 98101",
+            "phone": "206-555-4545",
+            "email": "agarcia@email.com",
+            "preferredContact": "email"
+        },
+        "insurance": {
+            "primary": "Cigna",
+            "planType": "PPO",
+            "policyNumber": "CIG123456789",
+            "groupNumber": "78901",
+            "verificationDate": "2023-02-20"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Michael Wilson",
+            "diagnoses": ["Crohn's disease", "Primary biliary cholangitis", "Migraines", "Anxiety disorder"],
+            "medications": [
+                "Adalimumab 40mg every 2 weeks", 
+                "Ursodiol 300mg BID", 
+                "Topiramate 50mg BID", 
+                "Sumatriptan 100mg PRN", 
+                "Escitalopram 10mg daily"
+            ],
+            "allergies": ["Infliximab (serum sickness)", "Codeine (nausea)"],
+            "recentLabs": {
+                "CBC": "normal",
+                "CMP": "mildly elevated alkaline phosphatase",
+                "Calprotectin": "normal",
+                "AMA": "positive",
+                "Fibroscan": "no significant fibrosis"
+            },
+            "lastPhysical": "2023-02"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Gastroenterology follow-up", "date": "2023-05"},
+                {"type": "Hepatology follow-up", "date": "2023-04"},
+                {"type": "Neurology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Gastroenterology", "provider": "Dr. Sarah Thompson", "year": 2023},
+                {"specialty": "Hepatology", "provider": "Dr. Jennifer Lee", "year": 2023},
+                {"specialty": "Neurology", "provider": "Dr. David Brown", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Rachel Wilson", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-22803",
+        "demographics": {
+            "name": "Matthew Thompson",
+            "dob": "1962-01-25",
+            "age": 61,
+            "gender": "Male",
+            "address": "456 View Ridge Lane, Seattle, WA 98115",
+            "phone": "206-555-5656",
+            "email": "mthompson@email.com",
+            "preferredContact": "phone"
+        },
+        "insurance": {
+            "primary": "Regence BlueShield",
+            "planType": "PPO",
+            "policyNumber": "RBS123456789",
+            "groupNumber": "89012",
+            "verificationDate": "2023-01-15"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Sarah Johnson",
+            "diagnoses": [
+                "COPD (Gold stage 3)", 
+                "Coronary artery disease", 
+                "Type 2 diabetes", 
+                "Obstructive sleep apnea", 
+                "History of myocardial infarction (2018)"
+            ],
+            "medications": [
+                "Tiotropium inhaler daily", 
+                "Fluticasone/vilanterol inhaler daily", 
+                "Albuterol inhaler PRN", 
+                "Aspirin 81mg daily", 
+                "Atorvastatin 40mg daily", 
+                "Metoprolol 50mg BID", 
+                "Metformin 1000mg BID"
+            ],
+            "allergies": ["ACE inhibitors (cough)"],
+            "recentLabs": {
+                "PFTs": "FEV1 45% predicted",
+                "HbA1c": "7.7%",
+                "Lipid panel": "LDL 80 mg/dL",
+                "ECG": "normal sinus rhythm",
+                "CXR": "hyperinflation, no infiltrates"
+            },
+            "lastPhysical": "2023-01"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Pulmonology follow-up", "date": "2023-05"},
+                {"type": "Cardiology follow-up", "date": "2023-04"},
+                {"type": "Endocrinology follow-up", "date": "2023-03"},
+                {"type": "Primary care visit", "date": "2023-01"},
+                {"type": "Sleep medicine follow-up", "date": "2022-12"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Pulmonology", "provider": "Dr. Michael Wilson", "year": 2023},
+                {"specialty": "Cardiology", "provider": "Dr. Jennifer Park", "year": 2023},
+                {"specialty": "Endocrinology", "provider": "Dr. Thomas Lee", "year": 2023},
+                {"specialty": "Sleep Medicine", "provider": "Dr. Rachel Brown", "year": 2022},
+                {"specialty": "Pulmonary Rehabilitation", "provider": "David Martinez, RT", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    },
+    {
+        "patientId": "PT-33914",
+        "demographics": {
+            "name": "Ava Wilson",
+            "dob": "2003-06-12",
+            "age": 20,
+            "gender": "Female",
+            "address": "789 University District, Seattle, WA 98105",
+            "phone": "206-555-6767",
+            "email": "awilson@email.com",
+            "preferredContact": "text"
+        },
+        "insurance": {
+            "primary": "UnitedHealthcare Student Resources",
+            "planType": "Student Health Plan",
+            "policyNumber": "UHCSR123456789",
+            "groupNumber": "90123",
+            "verificationDate": "2023-04-10"
+        },
+        "medicalSummary": {
+            "primaryCareProvider": "Dr. Jennifer Martinez",
+            "diagnoses": ["Type 1 diabetes", "Anxiety disorder", "Celiac disease", "Migraines"],
+            "medications": [
+                "Insulin aspart pump therapy", 
+                "Escitalopram 10mg daily", 
+                "Sumatriptan 50mg PRN", 
+                "Vitamin D 2000 IU daily"
+            ],
+            "allergies": ["Gluten (celiac disease)", "Sulfamethoxazole (rash)"],
+            "recentLabs": {
+                "HbA1c": "7.1%",
+                "CGM data": "Time in range 78%",
+                "Celiac antibodies": "negative on gluten-free diet",
+                "Vitamin D": "35 ng/mL",
+                "CBC": "normal",
+                "CMP": "normal"
+            },
+            "lastPhysical": "2023-04"
+        },
+        "providerHistory": {
+            "recentVisits": [
+                {"type": "Endocrinology follow-up", "date": "2023-05"},
+                {"type": "Student health center", "date": "2023-04"},
+                {"type": "Gastroenterology follow-up", "date": "2023-03"},
+                {"type": "Neurology follow-up", "date": "2023-02"}
+            ],
+            "specialistHistory": [
+                {"specialty": "Endocrinology", "provider": "Dr. Sarah Brown", "year": 2023},
+                {"specialty": "Gastroenterology", "provider": "Dr. Michael Johnson", "year": 2023},
+                {"specialty": "Neurology", "provider": "Dr. Thomas Park", "year": 2023},
+                {"specialty": "Psychiatry", "provider": "Dr. Rachel Adams", "year": 2022},
+                {"specialty": "Diabetes Educator", "provider": "Jennifer Lee, RN", "year": 2022}
+            ],
+            "patientPortalActive": true
+        }
+    }
+]

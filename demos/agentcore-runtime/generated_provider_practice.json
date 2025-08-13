@@ -1,0 +1,282 @@
+[
+  {
+    "system_id": "PROV-48271",
+    "address": "1234 Healthcare Blvd, Seattle, WA 98101",
+    "facility_name": "Westside Medical Center",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 17:00"}},
+    "phone_1": "206-555-1234",
+    "phone_2": "206-555-5678"
+  },
+  {
+    "system_id": "PROV-62145",
+    "address": "500 Cardiology Dr, Cleveland, OH 44195",
+    "facility_name": "Heart & Vascular Institute",
+    "operation_hours": {"monday_hours":{"S":"7:30 - 18:00"},"tuesday_hours":{"S":"7:30 - 18:00"},"wednesday_hours":{"S":"7:30 - 18:00"},"thursday_hours":{"S":"7:30 - 18:00"},"friday_hours":{"S":"7:30 - 16:00"}},
+    "phone_1": "216-555-7890",
+    "phone_2": "216-555-7891"
+  },
+  {
+    "system_id": "PROV-19837",
+    "address": "350 Neuroscience Way, San Francisco, CA 94143",
+    "facility_name": "Neurology & Sleep Center",
+    "operation_hours": {"monday_hours":{"S":"9:00 - 17:00"},"tuesday_hours":{"S":"9:00 - 17:00"},"thursday_hours":{"S":"9:00 - 17:00"},"friday_hours":{"S":"9:00 - 15:00"}},
+    "phone_1": "415-555-2468",
+    "phone_2": "415-555-2469"
+  },
+  {
+    "system_id": "PROV-73402",
+    "address": "825 Sports Medicine Pkwy, Birmingham, AL 35205",
+    "facility_name": "Andrews Sports Medicine Center",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 16:00"},"tuesday_hours":{"S":"8:00 - 16:00"},"wednesday_hours":{"S":"8:00 - 16:00"},"thursday_hours":{"S":"8:00 - 16:00"},"friday_hours":{"S":"8:00 - 14:00"}},
+    "phone_1": "205-555-3698",
+    "phone_2": "205-555-3699"
+  },
+  {
+    "system_id": "PROV-25619",
+    "address": "420 Children's Way, Boston, MA 02115",
+    "facility_name": "Boston Children's Hospital",
+    "operation_hours": {"monday_hours":{"S":"7:00 - 20:00"},"tuesday_hours":{"S":"7:00 - 20:00"},"wednesday_hours":{"S":"7:00 - 20:00"},"thursday_hours":{"S":"7:00 - 20:00"},"friday_hours":{"S":"7:00 - 20:00"},"saturday_hours":{"S":"8:00 - 16:00"},"sunday_hours":{"S":"8:00 - 16:00"}},
+    "phone_1": "617-555-8520",
+    "phone_2": "617-555-8521"
+  },
+  {
+    "system_id": "PROV-51390",
+    "address": "975 Women's Health Blvd, New York, NY 10065",
+    "facility_name": "Women's Health Pavilion",
+    "operation_hours": {"monday_hours":{"S":"8:30 - 17:00"},"tuesday_hours":{"S":"8:30 - 17:00"},"wednesday_hours":{"S":"8:30 - 17:00"},"thursday_hours":{"S":"8:30 - 17:00"},"friday_hours":{"S":"8:30 - 15:00"}},
+    "phone_1": "212-555-9753",
+    "phone_2": "212-555-9754"
+  },
+  {
+    "system_id": "PROV-38742",
+    "address": "123 Main Street, Rutland, VT 05701",
+    "facility_name": "Rutland Community Health Center",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 19:00"},"tuesday_hours":{"S":"8:00 - 19:00"},"wednesday_hours":{"S":"8:00 - 19:00"},"thursday_hours":{"S":"8:00 - 19:00"},"friday_hours":{"S":"8:00 - 17:00"},"saturday_hours":{"S":"9:00 - 13:00"}},
+    "phone_1": "802-555-1122",
+    "phone_2": "802-555-1123"
+  },
+  {
+    "system_id": "PROV-90127",
+    "address": "555 Mental Health Dr, New York, NY 10029",
+    "facility_name": "Manhattan Behavioral Health",
+    "operation_hours": {"monday_hours":{"S":"9:00 - 18:00"},"tuesday_hours":{"S":"9:00 - 18:00"},"wednesday_hours":{"S":"9:00 - 18:00"},"thursday_hours":{"S":"9:00 - 20:00"},"friday_hours":{"S":"9:00 - 17:00"},"saturday_hours":{"S":"10:00 - 14:00"}},
+    "phone_1": "212-555-3344",
+    "phone_2": "212-555-3345"
+  },
+  {
+    "system_id": "PROV-46823",
+    "address": "888 Dermatology Ave, Miami, FL 33136",
+    "facility_name": "South Florida Dermatology",
+    "operation_hours": {"monday_hours":{"S":"8:30 - 16:30"},"tuesday_hours":{"S":"8:30 - 16:30"},"wednesday_hours":{"S":"8:30 - 16:30"},"thursday_hours":{"S":"8:30 - 16:30"},"friday_hours":{"S":"8:30 - 15:00"}},
+    "phone_1": "305-555-9876",
+    "phone_2": "305-555-9877"
+  },
+  {
+    "system_id": "PROV-12576",
+    "address": "777 Digestive Health Pkwy, Rochester, MN 55905",
+    "facility_name": "Mayo Clinic Gastroenterology",
+    "operation_hours": {"monday_hours":{"S":"7:00 - 17:00"},"tuesday_hours":{"S":"7:00 - 17:00"},"wednesday_hours":{"S":"7:00 - 17:00"},"thursday_hours":{"S":"7:00 - 17:00"},"friday_hours":{"S":"7:00 - 17:00"}},
+    "phone_1": "507-555-6543",
+    "phone_2": "507-555-6544"
+  },
+  {
+    "system_id": "PROV-58901",
+    "address": "1515 Holcombe Blvd, Houston, TX 77030",
+    "facility_name": "MD Anderson Cancer Center",
+    "operation_hours": {"monday_hours":{"S":"7:00 - 18:00"},"tuesday_hours":{"S":"7:00 - 18:00"},"wednesday_hours":{"S":"7:00 - 18:00"},"thursday_hours":{"S":"7:00 - 18:00"},"friday_hours":{"S":"7:00 - 18:00"}},
+    "phone_1": "713-555-7890",
+    "phone_2": "713-555-7891"
+  },
+  {
+    "system_id": "PROV-33487",
+    "address": "9500 Euclid Ave, Cleveland, OH 44195",
+    "facility_name": "Cleveland Clinic Respiratory Institute",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"tuesday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"thursday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 16:00"}},
+    "phone_1": "216-555-4321",
+    "phone_2": "216-555-4322"
+  },
+  {
+    "system_id": "PROV-79652",
+    "address": "1364 Clifton Rd, Atlanta, GA 30322",
+    "facility_name": "Emory Kidney Center",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 16:30"},"tuesday_hours":{"S":"8:00 - 16:30"},"wednesday_hours":{"S":"8:00 - 16:30"},"thursday_hours":{"S":"8:00 - 16:30"},"friday_hours":{"S":"8:00 - 15:00"}},
+    "phone_1": "404-555-1234",
+    "phone_2": "404-555-1235"
+  },
+  {
+    "system_id": "PROV-21043",
+    "address": "600 N Wolfe St, Baltimore, MD 21287",
+    "facility_name": "Johns Hopkins Infectious Disease Center",
+    "operation_hours": {"monday_hours":{"S":"8:30 - 17:00"},"tuesday_hours":{"S":"8:30 - 17:00"},"wednesday_hours":{"S":"8:30 - 17:00"},"thursday_hours":{"S":"8:30 - 17:00"},"friday_hours":{"S":"8:30 - 16:00"}},
+    "phone_1": "410-555-9876",
+    "phone_2": "410-555-9877"
+  },
+  {
+    "system_id": "PROV-64870",
+    "address": "300 Longwood Ave, Boston, MA 02115",
+    "facility_name": "Boston Children's Neurology",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 18:00"},"tuesday_hours":{"S":"8:00 - 18:00"},"wednesday_hours":{"S":"8:00 - 18:00"},"thursday_hours":{"S":"8:00 - 18:00"},"friday_hours":{"S":"8:00 - 17:00"}},
+    "phone_1": "617-555-2345",
+    "phone_2": "617-555-2346"
+  },
+  {
+    "system_id": "PROV-36291",
+    "address": "1275 York Ave, New York, NY 10065",
+    "facility_name": "Memorial Sloan Kettering Urology",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"tuesday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"thursday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 15:00"}},
+    "phone_1": "212-555-6789",
+    "phone_2": "212-555-6790"
+  },
+  {
+    "system_id": "PROV-83745",
+    "address": "1500 E Medical Center Dr, Ann Arbor, MI 48109",
+    "facility_name": "University of Michigan Frankel Cardiovascular Center",
+    "operation_hours": {"monday_hours":{"S":"7:30 - 16:30"},"tuesday_hours":{"S":"7:30 - 16:30"},"wednesday_hours":{"S":"7:30 - 16:30"},"thursday_hours":{"S":"7:30 - 16:30"},"friday_hours":{"S":"7:30 - 15:00"}},
+    "phone_1": "734-555-8765",
+    "phone_2": "734-555-8766"
+  },
+  {
+    "system_id": "PROV-42519",
+    "address": "1101 Madison St, Seattle, WA 98104",
+    "facility_name": "Swedish Cancer Institute",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 16:30"},"tuesday_hours":{"S":"8:00 - 16:30"},"wednesday_hours":{"S":"8:00 - 16:30"},"thursday_hours":{"S":"8:00 - 16:30"},"friday_hours":{"S":"8:00 - 15:30"}},
+    "phone_1": "206-555-4567",
+    "phone_2": "206-555-4568"
+  },
+  {
+    "system_id": "PROV-91567",
+    "address": "535 E 70th St, New York, NY 10021",
+    "facility_name": "Hospital for Special Surgery",
+    "operation_hours": {"monday_hours":{"S":"8:30 - 17:00"},"tuesday_hours":{"S":"8:30 - 17:00"},"wednesday_hours":{"S":"8:30 - 17:00"},"thursday_hours":{"S":"8:30 - 17:00"},"friday_hours":{"S":"8:30 - 15:00"}},
+    "phone_1": "212-555-3456",
+    "phone_2": "212-555-3457"
+  },
+  {
+    "system_id": "PROV-15932",
+    "address": "1611 W Harrison St, Chicago, IL 60612",
+    "facility_name": "Midwest Orthopaedics at Rush",
+    "operation_hours": {"monday_hours":{"S":"7:00 - 16:00"},"tuesday_hours":{"S":"7:00 - 16:00"},"wednesday_hours":{"S":"7:00 - 16:00"},"thursday_hours":{"S":"7:00 - 16:00"},"friday_hours":{"S":"7:00 - 15:00"}},
+    "phone_1": "312-555-7654",
+    "phone_2": "312-555-7655"
+  },
+  {
+    "system_id": "PROV-67408",
+    "address": "900 NW 17th St, Miami, FL 33136",
+    "facility_name": "Bascom Palmer Eye Institute",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"tuesday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"thursday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 15:00"}},
+    "phone_1": "305-555-2345",
+    "phone_2": "305-555-2346"
+  },
+  {
+    "system_id": "PROV-28176",
+    "address": "1400 Jackson St, Denver, CO 80206",
+    "facility_name": "National Jewish Health",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 16:30"},"tuesday_hours":{"S":"8:00 - 16:30"},"wednesday_hours":{"S":"8:00 - 16:30"},"thursday_hours":{"S":"8:00 - 16:30"},"friday_hours":{"S":"8:00 - 15:00"}},
+    "phone_1": "303-555-6543",
+    "phone_2": "303-555-6544"
+  },
+  {
+    "system_id": "PROV-53782",
+    "address": "22 S Greene St, Baltimore, MD 21201",
+    "facility_name": "R Adams Cowley Shock Trauma Center",
+    "operation_hours": {"monday_hours":{"S":"7:00 - 19:00"},"tuesday_hours":{"S":"7:00 - 19:00"},"wednesday_hours":{"S":"7:00 - 19:00"},"thursday_hours":{"S":"7:00 - 19:00"},"friday_hours":{"S":"7:00 - 19:00"},"saturday_hours":{"S":"8:00 - 12:00"}},
+    "phone_1": "410-555-8765",
+    "phone_2": "410-555-8766"
+  },
+  {
+    "system_id": "PROV-74159",
+    "address": "1515 Holcombe Blvd, Houston, TX 77030",
+    "facility_name": "MD Anderson Head and Neck Center",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"tuesday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"thursday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 15:00"}},
+    "phone_1": "713-555-3456",
+    "phone_2": "713-555-3457"
+  },
+  {
+    "system_id": "PROV-31726",
+    "address": "3400 Spruce St, Philadelphia, PA 19104",
+    "facility_name": "Penn Medicine Plastic Surgery",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 16:30"},"tuesday_hours":{"S":"8:00 - 16:30"},"wednesday_hours":{"S":"8:00 - 16:30"},"thursday_hours":{"S":"8:00 - 16:30"},"friday_hours":{"S":"8:00 - 15:00"}},
+    "phone_1": "215-555-9876",
+    "phone_2": "215-555-9877"
+  },
+  {
+    "system_id": "PROV-87294",
+    "address": "9500 Euclid Ave, Cleveland, OH 44195",
+    "facility_name": "Cleveland Clinic Pain Management Center",
+    "operation_hours": {"monday_hours":{"S":"7:30 - 17:00"},"tuesday_hours":{"S":"7:30 - 17:00"},"wednesday_hours":{"S":"7:30 - 17:00"},"thursday_hours":{"S":"7:30 - 17:00"},"friday_hours":{"S":"7:30 - 15:00"}},
+    "phone_1": "216-555-1234",
+    "phone_2": "216-555-1235"
+  },
+  {
+    "system_id": "PROV-41085",
+    "address": "1959 NE Pacific St, Seattle, WA 98195",
+    "facility_name": "Harborview Medical Center",
+    "operation_hours": {"monday_hours":{"S":"24 hours"},"tuesday_hours":{"S":"24 hours"},"wednesday_hours":{"S":"24 hours"},"thursday_hours":{"S":"24 hours"},"friday_hours":{"S":"24 hours"},"saturday_hours":{"S":"24 hours"},"sunday_hours":{"S":"24 hours"}},
+    "phone_1": "206-555-7890",
+    "phone_2": "206-555-7891"
+  },
+  {
+    "system_id": "PROV-96342",
+    "address": "300 Pasteur Dr, Palo Alto, CA 94304",
+    "facility_name": "Stanford Children's Health",
+    "operation_hours": {"monday_hours":{"S":"8:30 - 17:00"},"tuesday_hours":{"S":"8:30 - 17:00"},"wednesday_hours":{"S":"8:30 - 17:00"},"thursday_hours":{"S":"8:30 - 17:00"},"friday_hours":{"S":"8:30 - 15:00"}},
+    "phone_1": "650-555-2345",
+    "phone_2": "650-555-2346"
+  },
+  {
+    "system_id": "PROV-23967",
+    "address": "330 Brookline Ave, Boston, MA 02215",
+    "facility_name": "Beth Israel Deaconess Medical Center",
+    "operation_hours": {"monday_hours":{"S":"9:00 - 16:00"},"tuesday_hours":{"S":"9:00 - 16:00"},"wednesday_hours":{"S":"9:00 - 16:00"},"thursday_hours":{"S":"9:00 - 16:00"},"friday_hours":{"S":"9:00 - 15:00"}},
+    "phone_1": "617-555-9876",
+    "phone_2": "617-555-9877"
+  },
+  {
+    "system_id": "PROV-75831",
+    "address": "1275 York Ave, New York, NY 10065",
+    "facility_name": "Memorial Sloan Kettering Pathology",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"tuesday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"thursday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 17:00"}},
+    "phone_1": "212-555-6543",
+    "phone_2": "212-555-6544"
+  },
+  {
+    "system_id": "PROV-39214",
+    "address": "2315 Stockton Blvd, Sacramento, CA 95817",
+    "facility_name": "UC Davis Sports Medicine",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"tuesday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"thursday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 15:00"},"saturday_hours":{"S":"9:00 - 13:00"}},
+    "phone_1": "916-555-7654",
+    "phone_2": "916-555-7655"
+  },
+  {
+    "system_id": "PROV-82609",
+    "address": "350 W Thomas Rd, Phoenix, AZ 85013",
+    "facility_name": "Barrow Neurological Institute",
+    "operation_hours": {"monday_hours":{"S":"7:30 - 16:30"},"tuesday_hours":{"S":"7:30 - 16:30"},"wednesday_hours":{"S":"7:30 - 16:30"},"thursday_hours":{"S":"7:30 - 16:30"},"friday_hours":{"S":"7:30 - 15:30"}},
+    "phone_1": "602-555-3456",
+    "phone_2": "602-555-3457"
+  },
+  {
+    "system_id": "PROV-47153",
+    "address": "450 Brookline Ave, Boston, MA 02215",
+    "facility_name": "Dana-Farber Cancer Institute",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"tuesday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"thursday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 16:00"}},
+    "phone_1": "617-555-8765",
+    "phone_2": "617-555-8766"
+  },
+  {
+    "system_id": "PROV-63817",
+    "address": "1500 E Medical Center Dr, Ann Arbor, MI 48109",
+    "facility_name": "University of Michigan Occupational Health",
+    "operation_hours": {"monday_hours":{"S":"8:00 - 17:00"},"tuesday_hours":{"S":"8:00 - 17:00"},"wednesday_hours":{"S":"8:00 - 17:00"},"thursday_hours":{"S":"8:00 - 17:00"},"friday_hours":{"S":"8:00 - 16:00"}},
+    "phone_1": "734-555-1234",
+    "phone_2": "734-555-1235"
+  },
+  {
+    "system_id": "PROV-18295",
+    "address": "1275 York Ave, New York, NY 10065",
+    "facility_name": "Memorial Sloan Kettering Nuclear Medicine",
+    "operation_hours": {"monday_hours":{"S":"7:00 - 16:30"},"tuesday_hours":{"S":"7:00 - 16:30"},"wednesday_hours":{"S":"7:00 - 16:30"},"thursday_hours":{"S":"7:00 - 16:30"},"friday_hours":{"S":"7:00 - 15:30"}},
+    "phone_1": "212-555-9876",
+    "phone_2": "212-555-9877"
+  }
+]
