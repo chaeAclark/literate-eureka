@@ -1,0 +1,355 @@
+{
+  "inlinePayload": [
+    {
+      "name": "get_my_appointments__controlled",
+      "description": "Get user's appointments for a specific date or today. Returns list of scheduled meetings with time, title, duration, location and attendees.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "description": "Date in YYYY-MM-DD format. If not provided, returns today's appointments."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "check_email_inbox__controlled",
+      "description": "Check recent emails in specified folder. Returns email sender, subject, received time, read status and preview.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "folder": {
+            "type": "string",
+            "description": "Email folder to check (e.g., 'inbox', 'sent', 'drafts'). Default is 'inbox'."
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of emails to return. Default is 5."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "get_team_members__controlled",
+      "description": "Get list of team members with their roles and availability status. Can be filtered by department.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "department": {
+            "type": "string",
+            "description": "Filter by department (e.g., 'Engineering', 'Product', 'Design'). If not provided, returns all team members."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "check_pto_balance__controlled",
+      "description": "Check current PTO (Paid Time Off) balance including vacation days, sick days, personal days, and next scheduled time off.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_recent_expenses__controlled",
+      "description": "Get recent expense reports with category, amount, description and approval status. Useful for tracking spending and pending reimbursements.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "days": {
+            "type": "integer",
+            "description": "Number of days to look back for expenses. Default is 30."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "search_internal_documents__controlled",
+      "description": "Search internal company documents and knowledge base including policies, technical guides, and presentations.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search query to find relevant documents."
+          },
+          "doc_type": {
+            "type": "string",
+            "description": "Filter by document type (e.g., 'policy', 'technical', 'presentation'). Optional."
+          }
+        },
+        "required": ["query"]
+      }
+    },
+    {
+      "name": "get_project_status__controlled",
+      "description": "Get status of active projects or a specific project including completion percentage, due date, team size, blockers and recent updates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "project_name": {
+            "type": "string",
+            "description": "Name of specific project to get status for. If not provided, returns all active projects."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "create_task__controlled",
+      "description": "Create a new task in the task management system with title, description, priority level and optional due date.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Title of the task."
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed description of the task. Optional."
+          },
+          "priority": {
+            "type": "string",
+            "description": "Priority level: 'low', 'medium', or 'high'. Default is 'medium'.",
+          },
+          "due_date": {
+            "type": "string",
+            "description": "Due date in YYYY-MM-DD format. Optional."
+          }
+        },
+        "required": ["title"]
+      }
+    },
+    {
+      "name": "get_system_notifications__controlled",
+      "description": "Get system notifications and alerts including security warnings, system updates and important messages.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "unread_only": {
+            "type": "boolean",
+            "description": "If true, only return unread notifications. Default is true."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "book_meeting_room__controlled",
+      "description": "Book a meeting room for a specified date and time. Returns booking confirmation or suggests alternatives if unavailable.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "room_name": {
+            "type": "string",
+            "description": "Name of the meeting room to book."
+          },
+          "date": {
+            "type": "string",
+            "description": "Date for the booking in YYYY-MM-DD format."
+          },
+          "start_time": {
+            "type": "string",
+            "description": "Start time in HH:MM format (e.g., '14:00')."
+          },
+          "duration_minutes": {
+            "type": "integer",
+            "description": "Duration of the meeting in minutes. Default is 60."
+          }
+        },
+        "required": ["room_name", "date", "start_time"]
+      }
+    },
+    {
+      "name": "search_web__public",
+      "description": "Search the web for information and return relevant results with titles, URLs, snippets and sources.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search query to look up on the web."
+          },
+          "num_results": {
+            "type": "integer",
+            "description": "Number of search results to return. Default is 5."
+          }
+        },
+        "required": ["query"]
+      }
+    },
+    {
+      "name": "get_weather__public",
+      "description": "Get current weather conditions and forecast for any location including temperature, conditions, humidity and wind speed.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "City name or location to get weather for (e.g., 'San Francisco', 'New York, NY')."
+          },
+          "units": {
+            "type": "string",
+            "description": "Temperature units: 'fahrenheit' or 'celsius'. Default is 'fahrenheit'.",
+          }
+        },
+        "required": ["location"]
+      }
+    },
+    {
+      "name": "get_stock_price__public",
+      "description": "Get current stock price and market information including price changes, volume, market cap, and day high/low.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "description": "Stock ticker symbol (e.g., 'AAPL', 'GOOGL', 'MSFT')."
+          }
+        },
+        "required": ["symbol"]
+      }
+    },
+    {
+      "name": "translate_text__public",
+      "description": "Translate text from one language to another. Supports automatic source language detection.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Text to translate."
+          },
+          "target_language": {
+            "type": "string",
+            "description": "Target language to translate to (e.g., 'spanish', 'french', 'german', 'japanese', 'chinese')."
+          },
+          "source_language": {
+            "type": "string",
+            "description": "Source language of the text. Use 'auto' for automatic detection. Default is 'auto'."
+          }
+        },
+        "required": ["text", "target_language"]
+      }
+    },
+    {
+      "name": "get_news_headlines__public",
+      "description": "Get latest news headlines and articles for a specific topic or country with summaries and sources.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "description": "News topic or category (e.g., 'technology', 'business', 'sports'). Default is 'general'."
+          },
+          "country": {
+            "type": "string",
+            "description": "Country code for regional news (e.g., 'us', 'uk', 'ca'). Default is 'us'."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "send_email_external__public",
+      "description": "Send an email to an external recipient with specified subject and body content.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "to": {
+            "type": "string",
+            "description": "Email address of the recipient."
+          },
+          "subject": {
+            "type": "string",
+            "description": "Subject line of the email."
+          },
+          "body": {
+            "type": "string",
+            "description": "Body content of the email."
+          }
+        },
+        "required": ["to", "subject", "body"]
+      }
+    },
+    {
+      "name": "calculate_distance__public",
+      "description": "Calculate distance and travel time between two locations with different transportation modes.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "string",
+            "description": "Starting location (address or place name)."
+          },
+          "destination": {
+            "type": "string",
+            "description": "Destination location (address or place name)."
+          },
+          "mode": {
+            "type": "string",
+            "description": "Transportation mode: 'driving', 'walking', 'cycling', or 'transit'. Default is 'driving'.",
+          }
+        },
+        "required": ["origin", "destination"]
+      }
+    },
+    {
+      "name": "get_restaurant_recommendations__public",
+      "description": "Get restaurant recommendations for a location with ratings, cuisine types, price ranges and popular dishes.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "City or area to search for restaurants."
+          },
+          "cuisine": {
+            "type": "string",
+            "description": "Type of cuisine (e.g., 'Italian', 'Japanese', 'Mexican'). Optional."
+          },
+          "price_range": {
+            "type": "string",
+            "description": "Price range indicator: '\$', '\$\$', '\$\$\$', or '\$\$\$\$'. Default is '\$\$'."
+          }
+        },
+        "required": ["location"]
+      }
+    },
+    {
+      "name": "get_movie_info__public",
+      "description": "Get comprehensive information about a movie including year, rating, genres, director, cast, runtime and streaming availability.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Title of the movie to look up."
+          }
+        },
+        "required": ["title"]
+      }
+    },
+    {
+      "name": "check_flight_status__public",
+      "description": "Check real-time flight status including departure/arrival times, gates, delays and airline information.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "flight_number": {
+            "type": "string",
+            "description": "Flight number (e.g., 'UA123', 'DL456')."
+          }
+        },
+        "required": ["flight_number"]
+      }
+    }
+  ]
+}

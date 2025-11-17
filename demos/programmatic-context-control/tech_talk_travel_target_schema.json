@@ -1,0 +1,478 @@
+{
+  "inlinePayload": [
+    {
+      "name": "get_my_bookings__controlled",
+      "description": "Get user's travel bookings from their account including flights, hotels, and car rentals. Returns booking confirmations, status, dates, prices and details.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "description": "Filter bookings by status: 'all', 'confirmed', 'pending', or 'cancelled'. Default is 'all'."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "get_loyalty_status__controlled",
+      "description": "Get user's loyalty program status across airlines, hotels, and car rental companies. Returns tier status, points/miles balance, benefits, and progress to next tier.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_saved_travelers__controlled",
+      "description": "Get saved traveler profiles for quick booking including passport information, known traveler numbers, Global Entry status, and contact details.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_travel_preferences__controlled",
+      "description": "Get user's saved travel preferences including preferred airlines, seat preferences, hotel chains, room types, car rental preferences and notification settings.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_past_trips__controlled",
+      "description": "Get user's travel history with destinations, dates, costs, ratings and notes. Useful for recommendations and expense tracking.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of past trips to return. Default is 5."
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "get_saved_payment_methods__controlled",
+      "description": "Get user's saved payment methods including credit cards with masked numbers, expiry dates, and billing addresses for quick checkout.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_travel_credits__controlled",
+      "description": "Get user's available travel credits, vouchers and refunds including amounts, expiry dates, restrictions and originating bookings.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_upcoming_trips__controlled",
+      "description": "Get user's upcoming confirmed trips with departure dates, destinations, booking status, total costs and travel preparation checklist.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "update_traveler_profile__controlled",
+      "description": "Update traveler profile information such as passport details, contact information, preferences or loyalty program numbers.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "traveler_id": {
+            "type": "string",
+            "description": "ID of the traveler profile to update."
+          },
+          "first_name": {
+            "type": "string",
+            "description": "Updated first name. Optional."
+          },
+          "last_name": {
+            "type": "string",
+            "description": "Updated last name. Optional."
+          },
+          "email": {
+            "type": "string",
+            "description": "Updated email address. Optional."
+          },
+          "phone": {
+            "type": "string",
+            "description": "Updated phone number. Optional."
+          },
+          "passport_number": {
+            "type": "string",
+            "description": "Updated passport number. Optional."
+          },
+          "passport_expiry": {
+            "type": "string",
+            "description": "Updated passport expiry in YYYY-MM-DD format. Optional."
+          }
+        },
+        "required": ["traveler_id"]
+      }
+    },
+    {
+      "name": "request_travel_approval__controlled",
+      "description": "Submit a corporate travel request for manager approval with destination, dates, estimated costs and business justification.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "destination": {
+            "type": "string",
+            "description": "Travel destination city and country."
+          },
+          "departure_date": {
+            "type": "string",
+            "description": "Departure date in YYYY-MM-DD format."
+          },
+          "return_date": {
+            "type": "string",
+            "description": "Return date in YYYY-MM-DD format."
+          },
+          "estimated_cost": {
+            "type": "number",
+            "description": "Estimated total trip cost in USD."
+          },
+          "business_justification": {
+            "type": "string",
+            "description": "Business reason and justification for the trip."
+          }
+        },
+        "required": ["destination", "departure_date", "return_date", "estimated_cost", "business_justification"]
+      }
+    },
+    {
+      "name": "search_flights__public",
+      "description": "Search for available flights between cities with pricing, airlines, departure/arrival times, duration, stops and amenities. Essential for flight booking.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "string",
+            "description": "Origin airport code (e.g., 'SFO', 'JFK', 'LAX')."
+          },
+          "destination": {
+            "type": "string",
+            "description": "Destination airport code (e.g., 'JFK', 'LAX', 'ORD')."
+          },
+          "departure_date": {
+            "type": "string",
+            "description": "Departure date in YYYY-MM-DD format."
+          },
+          "return_date": {
+            "type": "string",
+            "description": "Return date in YYYY-MM-DD format for round-trip. Optional for one-way."
+          },
+          "passengers": {
+            "type": "integer",
+            "description": "Number of passengers. Default is 1."
+          },
+          "cabin_class": {
+            "type": "string",
+            "description": "Cabin class: 'economy', 'premium_economy', 'business', or 'first'. Default is 'economy'."
+          }
+        },
+        "required": ["origin", "destination", "departure_date"]
+      }
+    },
+    {
+      "name": "search_hotels__public",
+      "description": "Search for available hotels with pricing, ratings, amenities, room types and cancellation policies. Returns options sorted by rating and price.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "City or area to search for hotels (e.g., 'New York', 'Paris, France')."
+          },
+          "check_in": {
+            "type": "string",
+            "description": "Check-in date in YYYY-MM-DD format."
+          },
+          "check_out": {
+            "type": "string",
+            "description": "Check-out date in YYYY-MM-DD format."
+          },
+          "guests": {
+            "type": "integer",
+            "description": "Number of guests per room. Default is 2."
+          },
+          "rooms": {
+            "type": "integer",
+            "description": "Number of rooms needed. Default is 1."
+          },
+          "min_stars": {
+            "type": "integer",
+            "description": "Minimum star rating (1-5). Default is 3."
+          }
+        },
+        "required": ["location", "check_in", "check_out"]
+      }
+    },
+    {
+      "name": "search_car_rentals__public",
+      "description": "Search for available car rentals with pricing, vehicle types, features, mileage limits and insurance options. Compare rental companies and vehicles.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "pickup_location": {
+            "type": "string",
+            "description": "Pickup location (city, airport code, or address)."
+          },
+          "pickup_date": {
+            "type": "string",
+            "description": "Pickup date in YYYY-MM-DD format."
+          },
+          "dropoff_date": {
+            "type": "string",
+            "description": "Drop-off date in YYYY-MM-DD format."
+          },
+          "car_type": {
+            "type": "string",
+            "description": "Preferred car type: 'economy', 'compact', 'midsize', 'suv', 'luxury', or 'any'. Default is 'any'."
+          }
+        },
+        "required": ["pickup_location", "pickup_date", "dropoff_date"]
+      }
+    },
+    {
+      "name": "get_airport_info__public",
+      "description": "Get detailed information about an airport including name, location, terminals, facilities, transportation options, parking and contact information.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "airport_code": {
+            "type": "string",
+            "description": "Three-letter airport code (e.g., 'JFK', 'LAX', 'ORD', 'LHR')."
+          }
+        },
+        "required": ["airport_code"]
+      }
+    },
+    {
+      "name": "check_visa_requirements__public",
+      "description": "Check visa requirements for international travel including visa type, processing time, cost, required documents and application procedures.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "destination_country": {
+            "type": "string",
+            "description": "Destination country to check visa requirements for."
+          },
+          "passport_country": {
+            "type": "string",
+            "description": "Country of passport/citizenship."
+          },
+          "trip_duration_days": {
+            "type": "integer",
+            "description": "Planned trip duration in days. Default is 7."
+          }
+        },
+        "required": ["destination_country", "passport_country"]
+      }
+    },
+    {
+      "name": "get_destination_weather__public",
+      "description": "Get weather forecast for travel destination including temperature, conditions, precipitation chance and packing suggestions for up to 7 days.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "City or destination to get weather forecast for."
+          },
+          "date": {
+            "type": "string",
+            "description": "Start date for forecast in YYYY-MM-DD format. Default is today."
+          }
+        },
+        "required": ["location"]
+      }
+    },
+    {
+      "name": "get_currency_exchange__public",
+      "description": "Get current currency exchange rates and convert amounts between currencies. Includes tips for best exchange methods and travel money advice.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "from_currency": {
+            "type": "string",
+            "description": "Source currency code (e.g., 'USD', 'EUR', 'GBP')."
+          },
+          "to_currency": {
+            "type": "string",
+            "description": "Target currency code (e.g., 'EUR', 'JPY', 'GBP')."
+          },
+          "amount": {
+            "type": "number",
+            "description": "Amount to convert. Default is 1.0."
+          }
+        },
+        "required": ["from_currency", "to_currency"]
+      }
+    },
+    {
+      "name": "find_attractions__public",
+      "description": "Find tourist attractions and activities at a destination including museums, landmarks, parks, entertainment with ratings, prices, hours and descriptions.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "City or destination to find attractions in."
+          },
+          "category": {
+            "type": "string",
+            "description": "Filter by category: 'museum', 'landmark', 'park', 'entertainment', 'shopping', 'food_tour', 'adventure', or 'all'. Default is 'all'."
+          },
+          "top_n": {
+            "type": "integer",
+            "description": "Number of top attractions to return. Default is 10."
+          }
+        },
+        "required": ["location"]
+      }
+    },
+    {
+      "name": "search_restaurants__public",
+      "description": "Search for restaurants at destination with ratings, cuisine types, price ranges, specialties, features and reservation information.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "City or area to search for restaurants."
+          },
+          "cuisine": {
+            "type": "string",
+            "description": "Type of cuisine (e.g., 'Italian', 'Japanese', 'Mexican', 'French'). Use 'any' for all cuisines. Default is 'any'."
+          },
+          "price_range": {
+            "type": "string",
+            "description": "Price range: '$', '$$', '$$$', or '$$$$'. Use 'any' for all ranges. Default is 'any'."
+          },
+          "meal_type": {
+            "type": "string",
+            "description": "Meal type: 'breakfast', 'lunch', 'dinner', 'brunch', or 'any'. Default is 'any'."
+          }
+        },
+        "required": ["location"]
+      }
+    },
+    {
+      "name": "get_travel_alerts__public",
+      "description": "Get travel advisories, safety information, health alerts, emergency contacts and local laws for destination. Essential for trip planning and safety.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "destination": {
+            "type": "string",
+            "description": "Destination country or city to check travel alerts for."
+          }
+        },
+        "required": ["destination"]
+      }
+    },
+    {
+      "name": "calculate_trip_cost__public",
+      "description": "Estimate total trip cost including flights, accommodation, food, activities and transportation. Returns breakdown by category and daily average.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "destination": {
+            "type": "string",
+            "description": "Trip destination city or country."
+          },
+          "duration_days": {
+            "type": "integer",
+            "description": "Trip duration in days."
+          },
+          "travelers": {
+            "type": "integer",
+            "description": "Number of travelers. Default is 1."
+          },
+          "travel_style": {
+            "type": "string",
+            "description": "Travel style: 'budget', 'moderate', or 'luxury'. Default is 'moderate'."
+          }
+        },
+        "required": ["destination", "duration_days"]
+      }
+    },
+    {
+      "name": "get_local_transportation__public",
+      "description": "Get information about local transportation options including public transit, taxis, ride-sharing, bike-sharing with pricing, hours and tips.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "destination": {
+            "type": "string",
+            "description": "City or destination to get transportation information for."
+          }
+        },
+        "required": ["destination"]
+      }
+    },
+    {
+      "name": "find_travel_insurance__public",
+      "description": "Find and compare travel insurance options with coverage details, prices, benefits, deductibles and recommendations based on trip details.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "trip_cost": {
+            "type": "number",
+            "description": "Total trip cost to insure in USD."
+          },
+          "travelers": {
+            "type": "integer",
+            "description": "Number of travelers to insure."
+          },
+          "duration_days": {
+            "type": "integer",
+            "description": "Trip duration in days."
+          },
+          "destination": {
+            "type": "string",
+            "description": "Trip destination for insurance quote."
+          }
+        },
+        "required": ["trip_cost", "travelers", "duration_days", "destination"]
+      }
+    },
+    {
+      "name": "get_packing_checklist__public",
+      "description": "Generate a comprehensive packing checklist based on destination, duration, season and trip type. Includes essentials, clothing, toiletries and packing tips.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "destination": {
+            "type": "string",
+            "description": "Trip destination to generate packing list for."
+          },
+          "duration_days": {
+            "type": "integer",
+            "description": "Trip duration in days."
+          },
+          "season": {
+            "type": "string",
+            "description": "Season of travel: 'spring', 'summer', 'fall', or 'winter'."
+          },
+          "trip_type": {
+            "type": "string",
+            "description": "Type of trip: 'leisure', 'business', 'adventure', or 'beach'. Default is 'leisure'."
+          }
+        },
+        "required": ["destination", "duration_days", "season"]
+      }
+    }
+  ]
+}
